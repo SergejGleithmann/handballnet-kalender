@@ -7,7 +7,7 @@ Aufruf:  python -m src.main
 from __future__ import annotations
 
 import sys
-from datetime import datetime
+from datetime import datetime, timezone as dt_timezone
 from pathlib import Path
 
 from src.client import ApiError, HandballNetClient
@@ -52,13 +52,14 @@ def collect_team_matches(
 
 
 def schreibe_feed(
-    matches: list[Match], *, slug: str, name: str, cfg: Config
+    matches: list[Match], *, slug: str, name: str, cfg: Config, gebaut_am: datetime
 ) -> tuple[str, str, int]:
     cal = build_calendar(
         matches,
         calendar_name=name,
         timezone=cfg.timezone,
         duration_min=cfg.match_duration_min,
+        gebaut_am=gebaut_am,
     )
     (DOCS / f"{slug}.ics").write_bytes(to_ics_bytes(cal))
     return slug, name, len(matches)
@@ -84,6 +85,8 @@ def main() -> int:
 
     DOCS.mkdir(exist_ok=True)
     feeds: list[tuple[str, str, int]] = []
+    # Ein Zeitstempel für alle Feeds eines Laufs.
+    gebaut_am = datetime.now(dt_timezone.utc)
 
     # Ein Feed je Mannschaft – so kann man einzeln abonnieren und abbestellen.
     for team in cfg.teams:
@@ -96,6 +99,7 @@ def main() -> int:
                 slug=team.feed_slug,
                 name=f"{cfg.calendar_name}: {team.display}",
                 cfg=cfg,
+                gebaut_am=gebaut_am,
             )
         )
 
@@ -117,6 +121,7 @@ def main() -> int:
                 slug=spec.slug,
                 name=f"{cfg.calendar_name}: {spec.label}",
                 cfg=cfg,
+                gebaut_am=gebaut_am,
             )
         )
 
@@ -129,7 +134,7 @@ def main() -> int:
         cfg=cfg,
         feeds=feeds,
         out=DOCS / "index.html",
-        gebaut_am=datetime.now(),
+        gebaut_am=gebaut_am.astimezone(),
     )
     print(f"→ {len(feeds)} Feeds geschrieben:")
     for slug, name, anzahl in feeds:

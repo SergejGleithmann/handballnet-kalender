@@ -1,43 +1,37 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//handballnet-kalender//Spielplan//DE
-METHOD:PUBLISH
 X-WR-CALNAME:Handball: HVE 1. Herren
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
-COMMENT:This timezone only works from 2025-08-08 to 2028-06-10.
+X-LIC-LOCATION:Europe/Berlin
 BEGIN:DAYLIGHT
-DTSTART:20250808T000000
-TZNAME:CEST
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0200
-END:DAYLIGHT
-BEGIN:STANDARD
-DTSTART:20251026T030000
-RDATE:20261025T030000,20271031T030000
-TZNAME:CET
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20260329T030000
-RDATE:20270328T030000,20280326T030000
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 TZNAME:CEST
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HSG Gevelsberg Silschede – HVE Villigst-Ergste I
  I
 DTSTART;TZID=Europe/Berlin:20260912T193000
 DTEND;TZID=Europe/Berlin:20260912T213000
-DTSTAMP:20260912T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-368939@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 2\n
  Schiedsrichter: Serkan Kahraman\, Markus Schürhoff\nhttps://www.handball.
  net/match/368939
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH Gevelsberg-West\, Am Hofe 10\, 58285 Gevelsberg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368939
@@ -47,11 +41,12 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – Ahlener SG 93 e.V. II
 DTSTART;TZID=Europe/Berlin:20260919T193000
 DTEND;TZID=Europe/Berlin:20260919T213000
-DTSTAMP:20260919T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-368947@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 3\nSchie
  dsrichter: Thorsten Mild\, Dominic Zientek\nhttps://www.handball.net/match
  /368947
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368947
@@ -62,11 +57,12 @@ SUMMARY:[HVE 1. Herren] ASC 09 Dortmund SC Aplerbeck 09 e.V. 1 – HVE Vil
  ligst-Ergste II
 DTSTART;TZID=Europe/Berlin:20260926T190000
 DTEND;TZID=Europe/Berlin:20260926T210000
-DTSTAMP:20260926T170000Z
+DTSTAMP:20260824T163859Z
 UID:match-368954@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 4\n
  Schiedsrichter: Jonathan Berse\, Tim Simon\nhttps://www.handball.net/match
  /368954
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Aplerbeck I\, Schweizer Allee 25\, 44287 Dortmund
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368954
@@ -77,10 +73,11 @@ SUMMARY:[HVE 1. Herren] TV Westfalia Halingen e.V. – HVE Villigst-Ergste
   II
 DTSTART;TZID=Europe/Berlin:20261003T191500
 DTEND;TZID=Europe/Berlin:20261003T211500
-DTSTAMP:20261003T171500Z
+DTSTAMP:20260824T163859Z
 UID:match-368958@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 5\n
  https://www.handball.net/match/368958
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Mehrzweckhalle Menden-Halingen\, Halinger Dorfstraße\, 58708 Men
  den-Halingen
 STATUS:CONFIRMED
@@ -92,10 +89,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – Handball SV Westerholt
  e.V.
 DTSTART;TZID=Europe/Berlin:20261010T193000
 DTEND;TZID=Europe/Berlin:20261010T213000
-DTSTAMP:20261010T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-368968@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 6\nhttps
  ://www.handball.net/match/368968
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368968
@@ -105,10 +103,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – HCE Bergkamen 1.H
 DTSTART;TZID=Europe/Berlin:20261030T193000
 DTEND;TZID=Europe/Berlin:20261030T213000
-DTSTAMP:20261030T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-368932@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 1\nhttps
  ://www.handball.net/match/368932
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368932
@@ -119,10 +118,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – TuS Westfalia Hombruch
  1891 e.V.
 DTSTART;TZID=Europe/Berlin:20261107T193000
 DTEND;TZID=Europe/Berlin:20261107T213000
-DTSTAMP:20261107T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-368981@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 8\nhttps
  ://www.handball.net/match/368981
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368981
@@ -132,10 +132,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] PSV e.V. Recklinghausen – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20261115T170000
 DTEND;TZID=Europe/Berlin:20261115T190000
-DTSTAMP:20261115T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-368983@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 9\n
  https://www.handball.net/match/368983
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368983
@@ -145,10 +146,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] TuS Ferndorf 2 – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20261120T193000
 DTEND;TZID=Europe/Berlin:20261120T213000
-DTSTAMP:20261120T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-368975@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 7\n
  https://www.handball.net/match/368975
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Kreuztal\, Am Park\, 57223 Kreuztal
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368975
@@ -159,10 +161,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – HSG Hattingen-Sprockhö
  vel
 DTSTART;TZID=Europe/Berlin:20261128T193000
 DTEND;TZID=Europe/Berlin:20261128T213000
-DTSTAMP:20261128T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-368991@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 10\nhttp
  s://www.handball.net/match/368991
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368991
@@ -172,10 +175,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HSC Haltern-Sythen – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20261205T173000
 DTEND;TZID=Europe/Berlin:20261205T193000
-DTSTAMP:20261205T163000Z
+DTSTAMP:20260824T163859Z
 UID:match-368999@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 11
  \nhttps://www.handball.net/match/368999
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Schulzentrum Haltern\, Philippistraße 30\, 45721 Haltern
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/368999
@@ -185,10 +189,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – HSG Herdecke/Ende 1
 DTSTART;TZID=Europe/Berlin:20261212T193000
 DTEND;TZID=Europe/Berlin:20261212T213000
-DTSTAMP:20261212T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-369007@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 12\nhttp
  s://www.handball.net/match/369007
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369007
@@ -198,10 +203,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] OSC Dortmund 1931 e.V. – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20261219T190000
 DTEND;TZID=Europe/Berlin:20261219T210000
-DTSTAMP:20261219T180000Z
+DTSTAMP:20260824T163859Z
 UID:match-369015@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 13
  \nhttps://www.handball.net/match/369015
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Hacheney\, Hacheneyer Straße 182\, 44265 Dortmund
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369015
@@ -211,10 +217,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HCE Bergkamen 1.H – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20270124T170000
 DTEND;TZID=Europe/Berlin:20270124T190000
-DTSTAMP:20270124T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-369023@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 14
  \nhttps://www.handball.net/match/369023
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Overberge\, Hansastraße\, 59192 Bergkamen-Overberge
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369023
@@ -225,10 +232,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – HSG Gevelsberg Silsched
  e
 DTSTART;TZID=Europe/Berlin:20270130T193000
 DTEND;TZID=Europe/Berlin:20270130T213000
-DTSTAMP:20270130T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-369030@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 15\nhttp
  s://www.handball.net/match/369030
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369030
@@ -238,10 +246,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] Ahlener SG 93 e.V. II – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20270207T170000
 DTEND;TZID=Europe/Berlin:20270207T190000
-DTSTAMP:20270207T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-369038@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 16
  \nhttps://www.handball.net/match/369038
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Friedrich-Ebert-Halle II\, Dolbergerstraße/Henry-Dunant-Weg\, 59
  229 Ahlen
 STATUS:CONFIRMED
@@ -253,10 +262,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – ASC 09 Dortmund SC Aple
  rbeck 09 e.V. 1
 DTSTART;TZID=Europe/Berlin:20270220T193000
 DTEND;TZID=Europe/Berlin:20270220T213000
-DTSTAMP:20270220T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-369045@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 17\nhttp
  s://www.handball.net/match/369045
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369045
@@ -267,10 +277,11 @@ SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – TV Westfalia Halingen e
  .V.
 DTSTART;TZID=Europe/Berlin:20270227T193000
 DTEND;TZID=Europe/Berlin:20270227T213000
-DTSTAMP:20270227T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-369049@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 18\nhttp
  s://www.handball.net/match/369049
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369049
@@ -281,10 +292,11 @@ SUMMARY:[HVE 1. Herren] Handball SV Westerholt e.V. – HVE Villigst-Ergst
  e II
 DTSTART;TZID=Europe/Berlin:20270306T190000
 DTEND;TZID=Europe/Berlin:20270306T210000
-DTSTAMP:20270306T180000Z
+DTSTAMP:20260824T163859Z
 UID:match-369059@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 19
  \nhttps://www.handball.net/match/369059
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Am Bahnhof\, Kuhstraße 55\, 45701 Herten-Westerholt
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369059
@@ -294,10 +306,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – TuS Ferndorf 2
 DTSTART;TZID=Europe/Berlin:20270313T193000
 DTEND;TZID=Europe/Berlin:20270313T213000
-DTSTAMP:20270313T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-369066@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 20\nhttp
  s://www.handball.net/match/369066
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369066
@@ -308,10 +321,11 @@ SUMMARY:[HVE 1. Herren] TuS Westfalia Hombruch 1891 e.V. – HVE Villigst-
  Ergste II
 DTSTART;TZID=Europe/Berlin:20270320T160000
 DTEND;TZID=Europe/Berlin:20270320T180000
-DTSTAMP:20270320T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-369072@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 21
  \nhttps://www.handball.net/match/369072
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Renninghausen\, Am Hombruchsfeld 55A\, 44225 Dortmund
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369072
@@ -321,10 +335,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – PSV e.V. Recklinghausen
 DTSTART;TZID=Europe/Berlin:20270410T193000
 DTEND;TZID=Europe/Berlin:20270410T213000
-DTSTAMP:20270410T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-369074@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 22\nhttp
  s://www.handball.net/match/369074
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369074
@@ -335,10 +350,11 @@ SUMMARY:[HVE 1. Herren] HSG Hattingen-Sprockhövel – HVE Villigst-Ergste
   II
 DTSTART;TZID=Europe/Berlin:20270418T170000
 DTEND;TZID=Europe/Berlin:20270418T190000
-DTSTAMP:20270418T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-369082@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 23
  \nhttps://www.handball.net/match/369082
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Kreissporthalle Hattingen\, Goethestraße\, 45525 Hattingen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369082
@@ -348,10 +364,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – HSC Haltern-Sythen
 DTSTART;TZID=Europe/Berlin:20270423T193000
 DTEND;TZID=Europe/Berlin:20270423T213000
-DTSTAMP:20270423T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-369090@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 24\nhttp
  s://www.handball.net/match/369090
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369090
@@ -361,10 +378,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HSG Herdecke/Ende 1 – HVE Villigst-Ergste II
 DTSTART;TZID=Europe/Berlin:20270501T170000
 DTEND;TZID=Europe/Berlin:20270501T190000
-DTSTAMP:20270501T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-369098@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nAuswärtsspiel · Spieltag 25
  \nhttps://www.handball.net/match/369098
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH Herdecke-Bleichstein\, Bleichstein\, 58313 Herdecke
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369098
@@ -374,10 +392,11 @@ BEGIN:VEVENT
 SUMMARY:[HVE 1. Herren] HVE Villigst-Ergste II – OSC Dortmund 1931 e.V.
 DTSTART;TZID=Europe/Berlin:20270507T193000
 DTEND;TZID=Europe/Berlin:20270507T213000
-DTSTAMP:20270507T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-369106@handball.net
 DESCRIPTION:HVW Männer Oberliga Staffel 2\nHeimspiel · Spieltag 26\nhttp
  s://www.handball.net/match/369106
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/369106

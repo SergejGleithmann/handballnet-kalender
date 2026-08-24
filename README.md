@@ -127,9 +127,10 @@ python -m src.main
 ```
 
 Der Lauf braucht einen Request pro Mannschaft (plus Pagination) und ist in Sekunden
-durch. Der **ICS ist deterministisch**: gleiche Daten → byteweise gleiche Datei, also
-keine Pseudo-Änderungen. (`docs/index.html` trägt einen Stand-Zeitstempel und ändert
-sich deshalb bei jedem Lauf.)
+durch. `DTSTAMP` und `LAST-MODIFIED` tragen den Zeitpunkt des Laufs – daran erkennen
+Kalender-Clients, dass eine Fassung neuer ist als die gespeicherte. Die Dateien in
+`docs/` ändern sich deshalb bei jedem Lauf, auch wenn sich an den Spielen nichts getan
+hat.
 
 ## Automatisch veröffentlichen
 
@@ -165,6 +166,22 @@ UID:         match-368939@handball.net          (stabil -> Verlegung = Update)
 
 Ist das Spiel gespielt, steht das Ergebnis hinten im Titel. Abgesetzte Spiele bekommen
 `STATUS:CANCELLED`, Kalender-Apps streichen sie durch.
+
+## Was Kalender-Clients uns abverlangt haben
+
+- **Keine `VTIMEZONE` → Google lehnt ab.** Wer per `TZID` auf eine Zeitzone verweist,
+  muss sie im Kalender definieren (RFC 5545). Apple kennt die Olson-Namen und verzeiht
+  das Fehlen, Google nicht.
+- **Die `VTIMEZONE` muss die kanonische `RRULE`-Form haben.** `Timezone.from_tzid` der
+  `icalendar`-Bibliothek erzeugt stattdessen `RDATE`-Listen, einen `COMMENT` und einen
+  Block mit identischen Offsets; damit kam Google nicht zurecht. Wir schreiben die
+  EU-Regel (letzter Sonntag im März bzw. Oktober) selbst – dieselbe Form, die auch der
+  Liga-Feed von handball.net ausliefert.
+- **Kein `METHOD:PUBLISH`.** Mit `METHOD` liest Google die Datei als iTIP-Nachricht
+  (Einladung) statt als abonnierbaren Kalender.
+- **`DTSTAMP` gehört auf den Zeitpunkt des Erzeugens**, nicht auf den Anwurf. Sonst
+  bliebe der Wert bei einem Hallenwechsel unverändert und die Änderung käme bei den
+  Clients nicht an.
 
 ## Eigenheiten der API, die hier abgefangen werden
 

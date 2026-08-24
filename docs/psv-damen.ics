@@ -1,42 +1,36 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//handballnet-kalender//Spielplan//DE
-METHOD:PUBLISH
 X-WR-CALNAME:Handball: PSV Recklinghausen Damen
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
-COMMENT:This timezone only works from 2025-08-09 to 2028-05-21.
+X-LIC-LOCATION:Europe/Berlin
 BEGIN:DAYLIGHT
-DTSTART:20250809T000000
-TZNAME:CEST
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0200
-END:DAYLIGHT
-BEGIN:STANDARD
-DTSTART:20251026T030000
-RDATE:20261025T030000,20271031T030000
-TZNAME:CET
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20260329T030000
-RDATE:20270328T030000,20280326T030000
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 TZNAME:CEST
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  V Aldekerk
 DTSTART;TZID=Europe/Berlin:20260913T170000
 DTEND;TZID=Europe/Berlin:20260913T190000
-DTSTAMP:20260913T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392779@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 1\nSchiedsricht
  er: Dennis Schaaf\, Jérôme Breuer\nhttps://www.handball.net/match/392779
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392779
@@ -47,10 +41,11 @@ SUMMARY:[PSV Recklinghausen Damen] TB Wülfrath – PSV RECKLINGHAUSEN 3.
  Liga Frauen
 DTSTART;TZID=Europe/Berlin:20260919T200000
 DTEND;TZID=Europe/Berlin:20260919T220000
-DTSTAMP:20260919T180000Z
+DTSTAMP:20260824T163859Z
 UID:match-392785@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 2\nSchieds
  richter: Dominik Zahs\, Nils Zahs\nhttps://www.handball.net/match/392785
+LAST-MODIFIED:20260824T163859Z
 LOCATION:MTC Arena Wülfrath\, Fortuna Str. 30\, 42489 Wülfrath
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392785
@@ -61,10 +56,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  hüringer HC II
 DTSTART;TZID=Europe/Berlin:20260927T170000
 DTEND;TZID=Europe/Berlin:20260927T190000
-DTSTAMP:20260927T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392792@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 3\nSchiedsricht
  er: Benjamin Scheld\, Zeki Kaplan\nhttps://www.handball.net/match/392792
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392792
@@ -75,10 +71,11 @@ SUMMARY:[PSV Recklinghausen Damen] BV Borussia 09 Dortmund II – PSV RECK
  LINGHAUSEN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20261004T160000
 DTEND;TZID=Europe/Berlin:20261004T180000
-DTSTAMP:20261004T140000Z
+DTSTAMP:20260824T163859Z
 UID:match-392796@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 4\nhttps:/
  /www.handball.net/match/392796
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Hörde I\, Stettiner Str. 12\, 44263 Dortmund
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392796
@@ -89,10 +86,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – H
  SG Bad Wildungen Vipers
 DTSTART;TZID=Europe/Berlin:20261011T170000
 DTEND;TZID=Europe/Berlin:20261011T190000
-DTSTAMP:20261011T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392805@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 5\nhttps://www.
  handball.net/match/392805
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392805
@@ -103,10 +101,11 @@ SUMMARY:[PSV Recklinghausen Damen] TSG 1893 Leihgestern – PSV RECKLINGHA
  USEN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20261017T193000
 DTEND;TZID=Europe/Berlin:20261017T213000
-DTSTAMP:20261017T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-392807@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 6\nhttps:/
  /www.handball.net/match/392807
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Stadthalle Linden\, Konrad-Adenauer-Straße\, 35440 Linden
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392807
@@ -117,10 +116,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  SG 1846 Mainz-Bretzenheim
 DTSTART;TZID=Europe/Berlin:20261031T190000
 DTEND;TZID=Europe/Berlin:20261031T210000
-DTSTAMP:20261031T180000Z
+DTSTAMP:20260824T163859Z
 UID:match-392818@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 7\nhttps://www.
  handball.net/match/392818
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392818
@@ -131,10 +131,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – 1
  . FSV Mainz 05 II
 DTSTART;TZID=Europe/Berlin:20261108T170000
 DTEND;TZID=Europe/Berlin:20261108T190000
-DTSTAMP:20261108T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-392819@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 8\nhttps://www.
  handball.net/match/392819
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392819
@@ -145,10 +146,11 @@ SUMMARY:[PSV Recklinghausen Damen] TuS Königsdorf – PSV RECKLINGHAUSEN
  3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20261114T160000
 DTEND;TZID=Europe/Berlin:20261114T180000
-DTSTAMP:20261114T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392829@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 9\nhttps:/
  /www.handball.net/match/392829
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Gerhard-Berger-Halle\, Pfeilstr.\, 50226 Frechen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392829
@@ -159,10 +161,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – H
  SG Bensheim/Auerbach II
 DTSTART;TZID=Europe/Berlin:20261122T170000
 DTEND;TZID=Europe/Berlin:20261122T190000
-DTSTAMP:20261122T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-392832@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 10\nhttps://www
  .handball.net/match/392832
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392832
@@ -173,10 +176,11 @@ SUMMARY:[PSV Recklinghausen Damen] 1.Fc Köln – PSV RECKLINGHAUSEN 3. Li
  ga Frauen
 DTSTART;TZID=Europe/Berlin:20261205T193000
 DTEND;TZID=Europe/Berlin:20261205T213000
-DTSTAMP:20261205T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-392840@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 11\nhttps:
  //www.handball.net/match/392840
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Köln Europaschule\, Raderthalgürtel 3\, 50968 Köln
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392840
@@ -187,10 +191,11 @@ SUMMARY:[PSV Recklinghausen Damen] TV Aldekerk – PSV RECKLINGHAUSEN 3. L
  iga Frauen
 DTSTART;TZID=Europe/Berlin:20261213T163000
 DTEND;TZID=Europe/Berlin:20261213T183000
-DTSTAMP:20261213T153000Z
+DTSTAMP:20260824T163859Z
 UID:match-392845@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 12\nhttps:
  //www.handball.net/match/392845
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Vogteihalle\, Kerken\, Slousenweg 12\, 47647 Kerken
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392845
@@ -201,10 +206,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  B Wülfrath
 DTSTART;TZID=Europe/Berlin:20261220T170000
 DTEND;TZID=Europe/Berlin:20261220T190000
-DTSTAMP:20261220T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-392851@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 13\nhttps://www
  .handball.net/match/392851
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392851
@@ -215,10 +221,11 @@ SUMMARY:[PSV Recklinghausen Damen] Thüringer HC II – PSV RECKLINGHAUSEN
   3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20270123T160000
 DTEND;TZID=Europe/Berlin:20270123T180000
-DTSTAMP:20270123T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392858@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 14\nhttps:
  //www.handball.net/match/392858
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Erfurt\, Sporthalle Sportgymnasium\, Mozartallee 4\, 99096 Erfurt
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392858
@@ -229,10 +236,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – B
  V Borussia 09 Dortmund II
 DTSTART;TZID=Europe/Berlin:20270130T193000
 DTEND;TZID=Europe/Berlin:20270130T213000
-DTSTAMP:20270130T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-392862@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 15\nhttps://www
  .handball.net/match/392862
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392862
@@ -243,10 +251,11 @@ SUMMARY:[PSV Recklinghausen Damen] HSG Bad Wildungen Vipers – PSV RECKLI
  NGHAUSEN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20270214T160000
 DTEND;TZID=Europe/Berlin:20270214T180000
-DTSTAMP:20270214T150000Z
+DTSTAMP:20260824T163859Z
 UID:match-392871@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 16\nhttps:
  //www.handball.net/match/392871
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Sporthalle Enseschule\, Brüder-Grimm-Straße 4\, 34537 Bad Wildu
  ngen
 STATUS:CONFIRMED
@@ -258,10 +267,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  SG 1893 Leihgestern
 DTSTART;TZID=Europe/Berlin:20270221T170000
 DTEND;TZID=Europe/Berlin:20270221T190000
-DTSTAMP:20270221T160000Z
+DTSTAMP:20260824T163859Z
 UID:match-392873@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 17\nhttps://www
  .handball.net/match/392873
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392873
@@ -272,10 +282,11 @@ SUMMARY:[PSV Recklinghausen Damen] TSG 1846 Mainz-Bretzenheim – PSV RECK
  LINGHAUSEN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20270227T193000
 DTEND;TZID=Europe/Berlin:20270227T213000
-DTSTAMP:20270227T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-392884@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 18\nhttps:
  //www.handball.net/match/392884
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Igs 1 Mainz-Bretzenheim\, Hans-Böckler-Straße 2\, 55128 Mainz
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392884
@@ -286,10 +297,11 @@ SUMMARY:[PSV Recklinghausen Damen] 1. FSV Mainz 05 II – PSV RECKLINGHAUS
  EN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20270314T150000
 DTEND;TZID=Europe/Berlin:20270314T170000
-DTSTAMP:20270314T140000Z
+DTSTAMP:20260824T163859Z
 UID:match-392885@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 19\nhttps:
  //www.handball.net/match/392885
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Gymnasium Mz-Oberstadt\, Hechtsheimer Straße 29\, 55131 Mainz
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392885
@@ -300,10 +312,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
  uS Königsdorf
 DTSTART;TZID=Europe/Berlin:20270320T193000
 DTEND;TZID=Europe/Berlin:20270320T213000
-DTSTAMP:20270320T183000Z
+DTSTAMP:20260824T163859Z
 UID:match-392895@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 20\nhttps://www
  .handball.net/match/392895
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392895
@@ -314,10 +327,11 @@ SUMMARY:[PSV Recklinghausen Damen] HSG Bensheim/Auerbach II – PSV RECKLI
  NGHAUSEN 3. Liga Frauen
 DTSTART;TZID=Europe/Berlin:20270404T160000
 DTEND;TZID=Europe/Berlin:20270404T180000
-DTSTAMP:20270404T140000Z
+DTSTAMP:20260824T163859Z
 UID:match-392898@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 21\nhttps:
  //www.handball.net/match/392898
+LAST-MODIFIED:20260824T163859Z
 LOCATION:Geschwister-Scholl-Schule\, Eifelstraße 39\, 64625 Bensheim
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392898
@@ -328,10 +342,11 @@ SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – 1
  .Fc Köln
 DTSTART;TZID=Europe/Berlin:20270417T193000
 DTEND;TZID=Europe/Berlin:20270417T213000
-DTSTAMP:20270417T173000Z
+DTSTAMP:20260824T163859Z
 UID:match-392906@handball.net
 DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 22\nhttps://www
  .handball.net/match/392906
+LAST-MODIFIED:20260824T163859Z
 LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/392906
