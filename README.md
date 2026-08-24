@@ -188,47 +188,53 @@ Drei Entscheidungen, die sich aus RFC 5545 ergeben und nicht aus dem Geschmack:
 
 ## Google Calendar nimmt den Feed nicht an (Stand 24.08.2026)
 
-Apple Kalender abonniert den Feed anstandslos. Google meldet „Hoppla, dieser Kalender
-konnte nicht hinzugefügt werden". **Am Feed liegt es nach allem Messen nicht.**
+Apple Kalender abonniert die Feeds anstandslos. Google meldet „Hoppla, dieser Kalender
+konnte nicht hinzugefügt werden. Bitte versuchen Sie es in ein paar Minuten noch
+einmal." **Die Ursache liegt bei Google, nicht am Feed und nicht am Hosting.**
 
-Ausgeschlossen durch Testvarianten unter je eigener URL, alle gescheitert:
+### Der Beweis
 
-| Verdacht | Test | Ergebnis |
+Ein Endpunkt, der jeden eingehenden Request protokolliert (webhook.site), wurde als
+Kalender-URL in Google eingetragen. **Es kam nie ein Request an** – auch nach Minuten
+nicht. Googles Abholdienst versucht es also gar nicht erst; die Anfrage verlässt Google
+nie. Damit ist alles, was ein Server ausliefern könnte, ohne Bedeutung.
+
+Dazu passt die von Google selbst angepinnte Meldung im Calendar-Forum vom 3.10.2025,
+gekennzeichnet als **Known Issue**: „adding a calendar from a URL appears to be not
+working as intended". 655 Nutzer haben sich angeschlossen, der Thread ist gesperrt, ein
+Fix wurde nie vermeldet, Meldungen laufen 2026 weiter.
+
+### Was trotzdem funktioniert – und was das verrät
+
+| Feed | Kannte Google die URL schon? | Ergebnis |
 |---|---|---|
-| Kodierung / fehlendes `charset` im Content-Type | Feed in reinem ASCII | scheitert weiter |
-| Zusatzfelder (`STATUS`, `URL`, `LOCATION`, `X-…`, `LAST-MODIFIED`) | einzeln zugeschaltet | scheitert weiter |
-| `VTIMEZONE` | ganz entfernt, `TZID` behalten | scheitert weiter |
-| `TZID` überhaupt | Zeiten in UTC, ohne `TZID` | scheitert weiter |
-| Dateiname | 32-Zeichen-Hex-Name | scheitert weiter |
+| Googles eigene Feiertage | ja, eigener Dienst | klappt |
+| officeholidays Deutschland | ja, millionenfach abonniert | klappt |
+| eigener SpielerPlus-Feed, im Juni abonniert | ja, seit Juni im System | klappt |
+| handball360-Liga-Feed, frisch | nein | scheitert |
+| sämtliche Feeds dieses Projekts | nein | scheitert |
 
-Ebenfalls geprüft und unauffällig: HTTP 200 ohne Weiterleitung, `Content-Type:
-text/calendar`, keine robots.txt auf der Pages-Domain, längste Zeile 75 Oktetts,
-gültiges UTF-8, Abschluss mit CRLF.
+Alles, was Google bereits kennt, lässt sich hinzufügen. Alles, was einen frischen Abruf
+erfordert, scheitert – ohne dass der Abruf je stattfindet.
 
-Widerlegt sind damit zwei naheliegende Erklärungen: der **`spieler+`-Feed desselben
-Kontos wird von Google angenommen**, obwohl er `METHOD:PUBLISH` trägt, *keine*
-`VTIMEZONE` hat und einen Umlaut enthält. Und der Liga-Feed von handball.net, der
-`charset=utf-8` korrekt mitliefert und für Google gebaut ist, **scheitert bei demselben
-Konto ebenfalls**.
+### Was vergeblich probiert wurde
 
-Übrig bleibt der Verdacht auf Googles Seite: „Über URL hinzufügen" drosselt nach einer
-Serie von Fehlversuchen. Wer darauf stößt, sollte ein bis zwei Tage warten und es dann
-erneut versuchen, statt weiter am Feed zu schrauben. Notfalls hilft der einmalige Import
-(Einstellungen → Importieren) – dann allerdings ohne Aktualisierung.
+Damit niemand denselben Weg noch einmal geht: reines ASCII; reduzierte Feldmenge; ohne
+`VTIMEZONE`; Zeiten in UTC statt `TZID`; ein einziger Termin in elf handgeschriebenen
+Zeilen; ein Hex-Dateiname; ein Unterordner; ein umbenanntes Repo (kompletter neuer
+Pfad); `#1` an die URL gehängt (der Cache-Trick aus dem Google-Forum). Jeder Versuch
+scheiterte gleich.
 
-## Eigenheiten der API, die hier abgefangen werden
+Geprüft und unauffällig: HTTP 200 ohne Weiterleitung, `Content-Type: text/calendar`,
+Abruf mit der Kennung `Google-Calendar-Importer` erfolgreich, keine robots.txt, längste
+Zeile 75 Oktetts, gültiges UTF-8, Abschluss mit CRLF, keine leeren Werte, keine
+Steuerzeichen, eindeutige UIDs, korrekt maskierte Kommas.
 
-1. **Der Zeitstempel lügt.** `date` kommt als `"2026-09-12T17:00:00+00:00"`, ist aber
-   Ortszeit. Wir lesen nur `YYYY-MM-DDTHH:MM` und behandeln es als `Europe/Berlin` –
-   genauso macht es die Website in ihrem eigenen ICS-Writer.
-2. **Spiele ohne Anwurfzeit** stehen als `00:00` → ganztägiger Termin statt Mitternacht.
-3. **Dubletten**: dieselbe Begegnung erscheint teils zweimal mit verschiedener `id` →
-   dedupliziert über (Datum, Heim-ID, Gast-ID).
-4. **0:0 bei beendeten Spielen** heißt „kein Ergebnis gemeldet" und wird nicht als
-   Ergebnis geschrieben.
-5. **Großbuchstaben**: Namen und Adressen kommen teils komplett groß, die Umlaute
-   dabei klein (`GRüNSTRAßE`) → normalisiert, gepflegte Schreibweisen bleiben.
-6. **Nur die laufende Saison** liegt in der API; ältere Spielzeiten liefern nichts.
+### Empfehlung
+
+In Apple abonnieren – das läuft. Für Google bleibt der einmalige Import
+(Einstellungen → Importieren), dann allerdings ohne Aktualisierung. Und gelegentlich
+erneut versuchen: repariert Google die Funktion, geht es ohne Zutun.
 
 ## Projektstruktur
 
