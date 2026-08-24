@@ -1,10 +1,10 @@
 """Spiele -> eine VCALENDAR (.ics) zum Abonnieren."""
 from __future__ import annotations
 
-from datetime import timedelta
+from datetime import date, timedelta
 from zoneinfo import ZoneInfo
 
-from icalendar import Calendar, Event as VEvent
+from icalendar import Calendar, Event as VEvent, Timezone
 
 from src.models import Match
 
@@ -21,6 +21,18 @@ def build_calendar(
     cal.add("x-wr-calname", calendar_name)
     cal.add("x-wr-timezone", timezone)
     cal.add("method", "PUBLISH")
+
+    # Wer per TZID auf eine Zeitzone verweist, muss sie im Kalender auch definieren
+    # (RFC 5545). Apple kennt die Olson-Namen und verzeiht das Fehlen, strengere
+    # Clients lehnen den Feed sonst ab. Deshalb VTIMEZONE mitliefern.
+    if matches:
+        cal.add_component(
+            Timezone.from_tzid(
+                timezone,
+                first_date=min(m.start for m in matches).date() - timedelta(days=400),
+                last_date=max(m.start for m in matches).date() + timedelta(days=400),
+            )
+        )
 
     for m in sorted(matches, key=lambda x: x.start):
         ve = VEvent()
