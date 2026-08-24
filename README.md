@@ -216,6 +216,13 @@ gekennzeichnet als **Known Issue**: „adding a calendar from a URL appears to b
 working as intended". 655 Nutzer haben sich angeschlossen, der Thread ist gesperrt, ein
 Fix wurde nie vermeldet, Meldungen laufen 2026 weiter.
 
+Eine Nebenspur, die unterwegs auftauchte und **nicht** die Ursache war: Nach vielen
+Versuchen meldete Google „Sie haben die Obergrenze für die Anzahl neuer Kalender
+erreicht" – ein Abo über URL legt einen neuen Kalender an, und dieses Kontingent war
+aufgebraucht. Nachdem es sich zurückgesetzt hatte, ließ sich wieder ein Kalender
+anlegen, **das Abo über URL aber weiterhin nicht**. Wer also auf diese Meldung stößt:
+sie erklärt das Scheitern nicht, sie kommt nur oben drauf.
+
 ### Was trotzdem funktioniert – und was das verrät
 
 | Feed | Kannte Google die URL schon? | Ergebnis |
