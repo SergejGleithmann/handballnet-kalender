@@ -158,7 +158,7 @@ läuft der Job alle sechs Stunden.
 ## Was im Termin steht
 
 ```
-SUMMARY:     A · HSG Gevelsberg Silschede
+SUMMARY:     A · HSG Gevelsberg Silschede – HVE 1. Herren
 LOCATION:    SPH Gevelsberg-West, Am Hofe 10, 58285 Gevelsberg
 DESCRIPTION: HVW Männer Oberliga Staffel 2
              Auswärtsspiel · Spieltag 2
@@ -168,11 +168,17 @@ DTSTART;TZID=Europe/Berlin:20260912T193000     (Dauer 2 h, einstellbar)
 UID:         match-368939@handball.net          (stabil -> Verlegung = Update)
 ```
 
-Der Titel beginnt mit **`H`** oder **`A`** und nennt dann den **Gegner** – Heim oder
-Auswärts steht damit an der einzigen Stelle, die Kalender-Apps nie abschneiden. Die
-eigene Mannschaft taucht nur in den **Sammel-Feeds** auf (`A · HSG Gevelsberg
-Silschede · HVE 1. Herren`); im Feed einer einzelnen Mannschaft wäre sie in jeder Zeile
-dieselbe und würde nur Platz kosten.
+Der Titel beginnt mit **`H`** oder **`A`**: Heim oder Auswärts steht damit an der
+einzigen Stelle, die Kalender-Apps nie abschneiden. Danach die Paarung in der gewohnten
+Reihenfolge, **Heimmannschaft links**.
+
+Die eigene Seite trägt dabei das **konfigurierte Label** statt des Namens aus der API.
+Das ist nicht Kosmetik: handball.net führt die Erste und die Zweite des HVE unter
+demselben Namen („HVE VILLIGST-ERGSTE II"). Erst das Label sagt, welche der beiden
+spielt – im Sammel-Feed wären die Termine sonst nicht auseinanderzuhalten.
+
+Ist das Spiel gespielt, hängt das Ergebnis hinten an: `H · HVE 1. Herren – Ahlener SG
+93 e.V. II · 28:24`.
 
 Ist das Spiel gespielt, steht das Ergebnis hinten im Titel. Abgesetzte Spiele bekommen
 `STATUS:CANCELLED`, Kalender-Apps streichen sie durch.

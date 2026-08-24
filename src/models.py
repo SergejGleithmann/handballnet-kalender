@@ -161,19 +161,20 @@ class Match:
     def opponent(self) -> str:
         return self.away if self.is_home else self.home
 
-    def summary(self, *, mit_team: bool = False) -> str:
-        """Titel des Termins: `H · Gegner` bzw. `A · Gegner`.
+    @property
+    def summary(self) -> str:
+        """Titel: `H · Heim – Gast`.
 
-        Heim oder Auswärts steht vorn, weil Kalender-Apps den Titel hinten abschneiden –
-        die Mannschaft nur in Sammel-Feeds, im Feed einer einzelnen Mannschaft wäre sie
-        in jeder Zeile dieselbe.
+        Heim oder Auswärts steht vorn, weil Kalender-Apps den Titel hinten abschneiden.
+        Danach die Paarung in der gewohnten Reihenfolge – Heimmannschaft links. Die
+        eigene Seite trägt dabei das konfigurierte Label statt des Namens aus der API:
+        handball.net führt mitunter zwei Mannschaften unter demselben Namen, erst das
+        Label sagt, welche der beiden spielt.
         """
-        teile = ["H" if self.is_home else "A", self.opponent]
-        if mit_team:
-            teile.append(self.team.display)
-        if self.result:
-            teile.append(self.result)
-        return " · ".join(teile)
+        heim = self.team.display if self.is_home else self.home
+        gast = self.away if self.is_home else self.team.display
+        titel = f"{'H' if self.is_home else 'A'} · {heim} – {gast}"
+        return f"{titel} · {self.result}" if self.result else titel
 
     @property
     def location(self) -> str:

@@ -64,7 +64,6 @@ def build_calendar(
     timezone: str,
     duration_min: int = 120,
     gebaut_am: datetime | None = None,
-    mit_team: bool = False,
 ) -> Calendar:
     tz = ZoneInfo(timezone)
     stempel = gebaut_am or datetime.now(dt_timezone.utc)
@@ -86,7 +85,7 @@ def build_calendar(
     for m in sorted(matches, key=lambda x: x.start):
         ve = VEvent()
         ve.add("uid", m.uid)
-        ve.add("summary", m.summary(mit_team=mit_team))
+        ve.add("summary", m.summary)
 
         if m.all_day:
             # Spiel ohne Anwurfzeit: ganztägig, statt einen Termin um Mitternacht zu erfinden.
