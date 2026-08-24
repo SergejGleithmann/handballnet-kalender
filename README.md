@@ -147,9 +147,13 @@ läuft der Job alle sechs Stunden.
 
 ## Kalender abonnieren
 
-- **Apple Kalender:** Ablage → Neues Kalenderabonnement → Abo-URL einfügen.
-- **Google Kalender:** Andere Kalender → Per URL → Abo-URL einfügen.
-  (Google aktualisiert Abos nur alle paar Stunden – normal.)
+- **Apple Kalender:** Ablage → Neues Kalenderabonnement → Abo-URL einfügen. Läuft.
+- **Google Kalender:** Andere Kalender → Per URL → Abo-URL einfügen, oder direkt über
+  `https://calendar.google.com/calendar/u/0/r/settings/addbyurl` (die `u/0` nagelt das
+  Konto fest; bei mehreren angemeldeten Konten laufen die `cid`-Links sonst ins Leere).
+  Aus der Handy-App geht es nicht, nur im Browser. Google aktualisiert Abos ohnehin nur
+  alle paar Stunden. **Achtung:** siehe den Abschnitt weiter unten – hier klemmt es
+  derzeit.
 
 ## Was im Termin steht
 
@@ -167,21 +171,50 @@ UID:         match-368939@handball.net          (stabil -> Verlegung = Update)
 Ist das Spiel gespielt, steht das Ergebnis hinten im Titel. Abgesetzte Spiele bekommen
 `STATUS:CANCELLED`, Kalender-Apps streichen sie durch.
 
-## Was Kalender-Clients uns abverlangt haben
+## Form des Kalenders
 
-- **Keine `VTIMEZONE` → Google lehnt ab.** Wer per `TZID` auf eine Zeitzone verweist,
-  muss sie im Kalender definieren (RFC 5545). Apple kennt die Olson-Namen und verzeiht
-  das Fehlen, Google nicht.
-- **Die `VTIMEZONE` muss die kanonische `RRULE`-Form haben.** `Timezone.from_tzid` der
-  `icalendar`-Bibliothek erzeugt stattdessen `RDATE`-Listen, einen `COMMENT` und einen
-  Block mit identischen Offsets; damit kam Google nicht zurecht. Wir schreiben die
-  EU-Regel (letzter Sonntag im März bzw. Oktober) selbst – dieselbe Form, die auch der
-  Liga-Feed von handball.net ausliefert.
-- **Kein `METHOD:PUBLISH`.** Mit `METHOD` liest Google die Datei als iTIP-Nachricht
-  (Einladung) statt als abonnierbaren Kalender.
-- **`DTSTAMP` gehört auf den Zeitpunkt des Erzeugens**, nicht auf den Anwurf. Sonst
-  bliebe der Wert bei einem Hallenwechsel unverändert und die Änderung käme bei den
-  Clients nicht an.
+Drei Entscheidungen, die sich aus RFC 5545 ergeben und nicht aus dem Geschmack:
+
+- **`VTIMEZONE` wird mitgeliefert.** Wer per `TZID` auf eine Zeitzone verweist, muss sie
+  im Kalender definieren. Geschrieben wird die kanonische `RRULE`-Form mit der EU-Regel
+  (letzter Sonntag im März bzw. Oktober). `Timezone.from_tzid` der `icalendar`-Bibliothek
+  erzeugt stattdessen `RDATE`-Listen, einen `COMMENT` und einen Block mit identischen
+  Offsets – formal zulässig, aber unnötig sperrig.
+- **Kein `METHOD`.** `METHOD:PUBLISH` macht aus der Datei eine iTIP-Nachricht; ein
+  abonnierbarer Kalender braucht das nicht.
+- **`DTSTAMP` und `LAST-MODIFIED` tragen den Zeitpunkt des Laufs**, nicht den Anwurf.
+  Daran erkennen Clients eine neuere Fassung. Stünde dort die Anwurfzeit, bliebe der
+  Wert bei einem reinen Hallenwechsel unverändert und die Änderung käme nicht an.
+
+## Google Calendar nimmt den Feed nicht an (Stand 24.08.2026)
+
+Apple Kalender abonniert den Feed anstandslos. Google meldet „Hoppla, dieser Kalender
+konnte nicht hinzugefügt werden". **Am Feed liegt es nach allem Messen nicht.**
+
+Ausgeschlossen durch Testvarianten unter je eigener URL, alle gescheitert:
+
+| Verdacht | Test | Ergebnis |
+|---|---|---|
+| Kodierung / fehlendes `charset` im Content-Type | Feed in reinem ASCII | scheitert weiter |
+| Zusatzfelder (`STATUS`, `URL`, `LOCATION`, `X-…`, `LAST-MODIFIED`) | einzeln zugeschaltet | scheitert weiter |
+| `VTIMEZONE` | ganz entfernt, `TZID` behalten | scheitert weiter |
+| `TZID` überhaupt | Zeiten in UTC, ohne `TZID` | scheitert weiter |
+| Dateiname | 32-Zeichen-Hex-Name | scheitert weiter |
+
+Ebenfalls geprüft und unauffällig: HTTP 200 ohne Weiterleitung, `Content-Type:
+text/calendar`, keine robots.txt auf der Pages-Domain, längste Zeile 75 Oktetts,
+gültiges UTF-8, Abschluss mit CRLF.
+
+Widerlegt sind damit zwei naheliegende Erklärungen: der **`spieler+`-Feed desselben
+Kontos wird von Google angenommen**, obwohl er `METHOD:PUBLISH` trägt, *keine*
+`VTIMEZONE` hat und einen Umlaut enthält. Und der Liga-Feed von handball.net, der
+`charset=utf-8` korrekt mitliefert und für Google gebaut ist, **scheitert bei demselben
+Konto ebenfalls**.
+
+Übrig bleibt der Verdacht auf Googles Seite: „Über URL hinzufügen" drosselt nach einer
+Serie von Fehlversuchen. Wer darauf stößt, sollte ein bis zwei Tage warten und es dann
+erneut versuchen, statt weiter am Feed zu schrauben. Notfalls hilft der einmalige Import
+(Einstellungen → Importieren) – dann allerdings ohne Aktualisierung.
 
 ## Eigenheiten der API, die hier abgefangen werden
 
