@@ -158,10 +158,22 @@ class Match:
         return MATCH_URL.format(id=self.id)
 
     @property
-    def summary(self) -> str:
-        paarung = f"{self.home} – {self.away}"
-        titel = f"[{self.team.display}] {paarung}"
-        return f"{titel} {self.result}".strip() if self.result else titel
+    def opponent(self) -> str:
+        return self.away if self.is_home else self.home
+
+    def summary(self, *, mit_team: bool = False) -> str:
+        """Titel des Termins: `H · Gegner` bzw. `A · Gegner`.
+
+        Heim oder Auswärts steht vorn, weil Kalender-Apps den Titel hinten abschneiden –
+        die Mannschaft nur in Sammel-Feeds, im Feed einer einzelnen Mannschaft wäre sie
+        in jeder Zeile dieselbe.
+        """
+        teile = ["H" if self.is_home else "A", self.opponent]
+        if mit_team:
+            teile.append(self.team.display)
+        if self.result:
+            teile.append(self.result)
+        return " · ".join(teile)
 
     @property
     def location(self) -> str:

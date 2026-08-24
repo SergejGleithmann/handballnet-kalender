@@ -52,7 +52,13 @@ def collect_team_matches(
 
 
 def schreibe_feed(
-    matches: list[Match], *, slug: str, name: str, cfg: Config, gebaut_am: datetime
+    matches: list[Match],
+    *,
+    slug: str,
+    name: str,
+    cfg: Config,
+    gebaut_am: datetime,
+    mit_team: bool = False,
 ) -> tuple[str, str, int]:
     cal = build_calendar(
         matches,
@@ -60,6 +66,7 @@ def schreibe_feed(
         timezone=cfg.timezone,
         duration_min=cfg.match_duration_min,
         gebaut_am=gebaut_am,
+        mit_team=mit_team,
     )
     (DOCS / f"{slug}.ics").write_bytes(to_ics_bytes(cal))
     return slug, name, len(matches)
@@ -122,6 +129,7 @@ def main() -> int:
                 name=f"{cfg.calendar_name}: {spec.label}",
                 cfg=cfg,
                 gebaut_am=gebaut_am,
+                mit_team=True,
             )
         )
 

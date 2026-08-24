@@ -158,7 +158,7 @@ läuft der Job alle sechs Stunden.
 ## Was im Termin steht
 
 ```
-SUMMARY:     [1. Herren] HSG Gevelsberg Silschede – HVE Villigst-Ergste II
+SUMMARY:     A · HSG Gevelsberg Silschede
 LOCATION:    SPH Gevelsberg-West, Am Hofe 10, 58285 Gevelsberg
 DESCRIPTION: HVW Männer Oberliga Staffel 2
              Auswärtsspiel · Spieltag 2
@@ -167,6 +167,12 @@ DESCRIPTION: HVW Männer Oberliga Staffel 2
 DTSTART;TZID=Europe/Berlin:20260912T193000     (Dauer 2 h, einstellbar)
 UID:         match-368939@handball.net          (stabil -> Verlegung = Update)
 ```
+
+Der Titel beginnt mit **`H`** oder **`A`** und nennt dann den **Gegner** – Heim oder
+Auswärts steht damit an der einzigen Stelle, die Kalender-Apps nie abschneiden. Die
+eigene Mannschaft taucht nur in den **Sammel-Feeds** auf (`A · HSG Gevelsberg
+Silschede · HVE 1. Herren`); im Feed einer einzelnen Mannschaft wäre sie in jeder Zeile
+dieselbe und würde nur Platz kosten.
 
 Ist das Spiel gespielt, steht das Ergebnis hinten im Titel. Abgesetzte Spiele bekommen
 `STATUS:CANCELLED`, Kalender-Apps streichen sie durch.
