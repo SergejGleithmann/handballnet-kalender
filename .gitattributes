@@ -1,0 +1,2 @@
+# iCalendar verlangt CRLF als Zeilenende – Git darf das nicht normalisieren.
+*.ics -text

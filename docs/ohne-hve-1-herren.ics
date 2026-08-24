@@ -1,0 +1,607 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//handballnet-kalender//Spielplan//DE
+METHOD:PUBLISH
+X-WR-CALNAME:Handball: Ohne HVE 1. Herren
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] TV Arnsberg H1 – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20260912T200000
+DTEND;TZID=Europe/Berlin:20260912T220000
+DTSTAMP:20260912T180000Z
+UID:match-503289@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 1\nhttps://
+ www.handball.net/match/503289
+LOCATION:Rundturnhalle\, Promenade 12 (Anfahrt Über Feauxweg)\, 59821 Arn
+ sberg
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503289
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ V Aldekerk
+DTSTART;TZID=Europe/Berlin:20260913T170000
+DTEND;TZID=Europe/Berlin:20260913T190000
+DTSTAMP:20260913T150000Z
+UID:match-392779@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 1\nSchiedsricht
+ er: Dennis Schaaf\, Jérôme Breuer\nhttps://www.handball.net/match/392779
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392779
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] TB Wülfrath – PSV RECKLINGHAUSEN 3. 
+ Liga Frauen
+DTSTART;TZID=Europe/Berlin:20260919T200000
+DTEND;TZID=Europe/Berlin:20260919T220000
+DTSTAMP:20260919T180000Z
+UID:match-392785@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 2\nSchieds
+ richter: Dominik Zahs\, Nils Zahs\nhttps://www.handball.net/match/392785
+LOCATION:MTC Arena Wülfrath\, Fortuna Str. 30\, 42489 Wülfrath
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392785
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – SG Menden 2
+DTSTART;TZID=Europe/Berlin:20260920T180000
+DTEND;TZID=Europe/Berlin:20260920T200000
+DTSTAMP:20260920T160000Z
+UID:match-503294@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 2\nhttps://www.h
+ andball.net/match/503294
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503294
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] TV Brechten II – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20260926T180000
+DTEND;TZID=Europe/Berlin:20260926T200000
+DTSTAMP:20260926T160000Z
+UID:match-503298@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 3\nhttps://
+ www.handball.net/match/503298
+LOCATION:SPH. Eving (Alt)\, Thüringer Str. 30\, 44339 Dortmund
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503298
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ hüringer HC II
+DTSTART;TZID=Europe/Berlin:20260927T170000
+DTEND;TZID=Europe/Berlin:20260927T190000
+DTSTAMP:20260927T150000Z
+UID:match-392792@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 3\nSchiedsricht
+ er: Benjamin Scheld\, Zeki Kaplan\nhttps://www.handball.net/match/392792
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392792
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] BV Borussia 09 Dortmund II – PSV RECK
+ LINGHAUSEN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20261004T160000
+DTEND;TZID=Europe/Berlin:20261004T180000
+DTSTAMP:20261004T140000Z
+UID:match-392796@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 4\nhttps:/
+ /www.handball.net/match/392796
+LOCATION:SPH. Hörde I\, Stettiner Str. 12\, 44263 Dortmund
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392796
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – HSG Herdecke/Ende II
+DTSTART;TZID=Europe/Berlin:20261004T180000
+DTEND;TZID=Europe/Berlin:20261004T200000
+DTSTAMP:20261004T160000Z
+UID:match-503305@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 4\nhttps://www.h
+ andball.net/match/503305
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503305
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] TuS Borussia Höchsten – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20261010T200000
+DTEND;TZID=Europe/Berlin:20261010T220000
+DTSTAMP:20261010T180000Z
+UID:match-503312@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 5\nhttps://
+ www.handball.net/match/503312
+LOCATION:SPH. Wellinghofen\, Am Lieberfeld 13\, 44265 Dortmund
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503312
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – H
+ SG Bad Wildungen Vipers
+DTSTART;TZID=Europe/Berlin:20261011T170000
+DTEND;TZID=Europe/Berlin:20261011T190000
+DTSTAMP:20261011T150000Z
+UID:match-392805@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 5\nhttps://www.
+ handball.net/match/392805
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392805
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] TSG 1893 Leihgestern – PSV RECKLINGHA
+ USEN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20261017T193000
+DTEND;TZID=Europe/Berlin:20261017T213000
+DTSTAMP:20261017T173000Z
+UID:match-392807@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 6\nhttps:/
+ /www.handball.net/match/392807
+LOCATION:Stadthalle Linden\, Konrad-Adenauer-Straße\, 35440 Linden
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392807
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – TV Wickede H1
+DTSTART;TZID=Europe/Berlin:20261031T180000
+DTEND;TZID=Europe/Berlin:20261031T200000
+DTSTAMP:20261031T170000Z
+UID:match-503319@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 6\nhttps://www.h
+ andball.net/match/503319
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503319
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ SG 1846 Mainz-Bretzenheim
+DTSTART;TZID=Europe/Berlin:20261031T190000
+DTEND;TZID=Europe/Berlin:20261031T210000
+DTSTAMP:20261031T180000Z
+UID:match-392818@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 7\nhttps://www.
+ handball.net/match/392818
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392818
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – 1
+ . FSV Mainz 05 II
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T190000
+DTSTAMP:20261108T160000Z
+UID:match-392819@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 8\nhttps://www.
+ handball.net/match/392819
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392819
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – TV Neheim H1
+DTSTART;TZID=Europe/Berlin:20261108T180000
+DTEND;TZID=Europe/Berlin:20261108T200000
+DTSTAMP:20261108T170000Z
+UID:match-503325@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 7\nhttps://www.h
+ andball.net/match/503325
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503325
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] TuS Königsdorf – PSV RECKLINGHAUSEN 
+ 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20261114T160000
+DTEND;TZID=Europe/Berlin:20261114T180000
+DTSTAMP:20261114T150000Z
+UID:match-392829@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 9\nhttps:/
+ /www.handball.net/match/392829
+LOCATION:Gerhard-Berger-Halle\, Pfeilstr.\, 50226 Frechen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392829
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] SC Huckarde Rahm – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20261121T190000
+DTEND;TZID=Europe/Berlin:20261121T210000
+DTSTAMP:20261121T180000Z
+UID:match-503331@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 8\nhttps://
+ www.handball.net/match/503331
+LOCATION:SPH. Huckarde\, Parsevalstraße 170\, 44369 Dortmund
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503331
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – H
+ SG Bensheim/Auerbach II
+DTSTART;TZID=Europe/Berlin:20261122T170000
+DTEND;TZID=Europe/Berlin:20261122T190000
+DTSTAMP:20261122T160000Z
+UID:match-392832@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 10\nhttps://www
+ .handball.net/match/392832
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392832
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – HSG Wetter Grundschött
+ el
+DTSTART;TZID=Europe/Berlin:20261129T180000
+DTEND;TZID=Europe/Berlin:20261129T200000
+DTSTAMP:20261129T170000Z
+UID:match-503337@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 9\nhttps://www.h
+ andball.net/match/503337
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503337
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] 1.Fc Köln – PSV RECKLINGHAUSEN 3. Li
+ ga Frauen
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+DTSTAMP:20261205T183000Z
+UID:match-392840@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 11\nhttps:
+ //www.handball.net/match/392840
+LOCATION:Köln Europaschule\, Raderthalgürtel 3\, 50968 Köln
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392840
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] DJK SG Boesperde II – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20261205T193000
+DTEND;TZID=Europe/Berlin:20261205T213000
+DTSTAMP:20261205T183000Z
+UID:match-503343@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 10\nhttps:/
+ /www.handball.net/match/503343
+LOCATION:Sporthalle Bösperde\, Bahnhofstraße In Bösperde\, 58708 Menden
+ -Bösperde
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503343
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] TV Aldekerk – PSV RECKLINGHAUSEN 3. L
+ iga Frauen
+DTSTART;TZID=Europe/Berlin:20261213T163000
+DTEND;TZID=Europe/Berlin:20261213T183000
+DTSTAMP:20261213T153000Z
+UID:match-392845@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 12\nhttps:
+ //www.handball.net/match/392845
+LOCATION:Vogteihalle\, Kerken\, Slousenweg 12\, 47647 Kerken
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392845
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – ASC Dortmund II
+DTSTART;TZID=Europe/Berlin:20261219T180000
+DTEND;TZID=Europe/Berlin:20261219T200000
+DTSTAMP:20261219T170000Z
+UID:match-503349@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 11\nhttps://www.
+ handball.net/match/503349
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503349
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ B Wülfrath
+DTSTART;TZID=Europe/Berlin:20261220T170000
+DTEND;TZID=Europe/Berlin:20261220T190000
+DTSTAMP:20261220T160000Z
+UID:match-392851@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 13\nhttps://www
+ .handball.net/match/392851
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392851
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] Thüringer HC II – PSV RECKLINGHAUSEN
+  3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20270123T160000
+DTEND;TZID=Europe/Berlin:20270123T180000
+DTSTAMP:20270123T150000Z
+UID:match-392858@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 14\nhttps:
+ //www.handball.net/match/392858
+LOCATION:Erfurt\, Sporthalle Sportgymnasium\, Mozartallee 4\, 99096 Erfurt
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392858
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – TV Arnsberg H1
+DTSTART;TZID=Europe/Berlin:20270124T180000
+DTEND;TZID=Europe/Berlin:20270124T200000
+DTSTAMP:20270124T170000Z
+UID:match-503355@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 12\nhttps://www.
+ handball.net/match/503355
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503355
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] SG Menden 2 – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20270130T170000
+DTEND;TZID=Europe/Berlin:20270130T190000
+DTSTAMP:20270130T160000Z
+UID:match-503360@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 13\nhttps:/
+ /www.handball.net/match/503360
+LOCATION:Kreissporthalle Berufsschule\, Werler Straße\, 58706 Menden
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503360
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – B
+ V Borussia 09 Dortmund II
+DTSTART;TZID=Europe/Berlin:20270130T193000
+DTEND;TZID=Europe/Berlin:20270130T213000
+DTSTAMP:20270130T183000Z
+UID:match-392862@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 15\nhttps://www
+ .handball.net/match/392862
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392862
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] HSG Bad Wildungen Vipers – PSV RECKLI
+ NGHAUSEN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20270214T160000
+DTEND;TZID=Europe/Berlin:20270214T180000
+DTSTAMP:20270214T150000Z
+UID:match-392871@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 16\nhttps:
+ //www.handball.net/match/392871
+LOCATION:Sporthalle Enseschule\, Brüder-Grimm-Straße 4\, 34537 Bad Wildu
+ ngen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392871
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – TV Brechten II
+DTSTART;TZID=Europe/Berlin:20270214T180000
+DTEND;TZID=Europe/Berlin:20270214T200000
+DTSTAMP:20270214T170000Z
+UID:match-503364@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 14\nhttps://www.
+ handball.net/match/503364
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503364
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HSG Herdecke/Ende II – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20270221T160000
+DTEND;TZID=Europe/Berlin:20270221T180000
+DTSTAMP:20270221T150000Z
+UID:match-503371@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 15\nhttps:/
+ /www.handball.net/match/503371
+LOCATION:SPH Herdecke-Bleichstein\, Bleichstein\, 58313 Herdecke
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503371
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ SG 1893 Leihgestern
+DTSTART;TZID=Europe/Berlin:20270221T170000
+DTEND;TZID=Europe/Berlin:20270221T190000
+DTSTAMP:20270221T160000Z
+UID:match-392873@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 17\nhttps://www
+ .handball.net/match/392873
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392873
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] TSG 1846 Mainz-Bretzenheim – PSV RECK
+ LINGHAUSEN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20270227T193000
+DTEND;TZID=Europe/Berlin:20270227T213000
+DTSTAMP:20270227T183000Z
+UID:match-392884@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 18\nhttps:
+ //www.handball.net/match/392884
+LOCATION:Igs 1 Mainz-Bretzenheim\, Hans-Böckler-Straße 2\, 55128 Mainz
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392884
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – TuS Borussia Höchsten
+DTSTART;TZID=Europe/Berlin:20270228T180000
+DTEND;TZID=Europe/Berlin:20270228T200000
+DTSTAMP:20270228T170000Z
+UID:match-503378@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 16\nhttps://www.
+ handball.net/match/503378
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503378
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] TV Wickede H1 – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20270306T180000
+DTEND;TZID=Europe/Berlin:20270306T200000
+DTSTAMP:20270306T170000Z
+UID:match-503385@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 17\nhttps:/
+ /www.handball.net/match/503385
+LOCATION:Gerken-Sporthalle\, Hövelstraße\, 58739 Wickede-Ruhr
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503385
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] TV Neheim H1 – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20270313T183000
+DTEND;TZID=Europe/Berlin:20270313T203000
+DTSTAMP:20270313T173000Z
+UID:match-503391@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 18\nhttps:/
+ /www.handball.net/match/503391
+LOCATION:SPH Berliner Platz\, Berliner Platz\, 59755 Arnsberg(Neh.-Hü.)
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503391
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] 1. FSV Mainz 05 II – PSV RECKLINGHAUS
+ EN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20270314T150000
+DTEND;TZID=Europe/Berlin:20270314T170000
+DTSTAMP:20270314T140000Z
+UID:match-392885@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 19\nhttps:
+ //www.handball.net/match/392885
+LOCATION:Gymnasium Mz-Oberstadt\, Hechtsheimer Straße 29\, 55131 Mainz
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392885
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – T
+ uS Königsdorf
+DTSTART;TZID=Europe/Berlin:20270320T193000
+DTEND;TZID=Europe/Berlin:20270320T213000
+DTSTAMP:20270320T183000Z
+UID:match-392895@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 20\nhttps://www
+ .handball.net/match/392895
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392895
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – SC Huckarde Rahm
+DTSTART;TZID=Europe/Berlin:20270403T180000
+DTEND;TZID=Europe/Berlin:20270403T200000
+DTSTAMP:20270403T160000Z
+UID:match-503397@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 19\nhttps://www.
+ handball.net/match/503397
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503397
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] HSG Bensheim/Auerbach II – PSV RECKLI
+ NGHAUSEN 3. Liga Frauen
+DTSTART;TZID=Europe/Berlin:20270404T160000
+DTEND;TZID=Europe/Berlin:20270404T180000
+DTSTAMP:20270404T140000Z
+UID:match-392898@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 21\nhttps:
+ //www.handball.net/match/392898
+LOCATION:Geschwister-Scholl-Schule\, Eifelstraße 39\, 64625 Bensheim
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392898
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[PSV Recklinghausen Damen] PSV RECKLINGHAUSEN 3. Liga Frauen – 1
+ .Fc Köln
+DTSTART;TZID=Europe/Berlin:20270417T193000
+DTEND;TZID=Europe/Berlin:20270417T213000
+DTSTAMP:20270417T173000Z
+UID:match-392906@handball.net
+DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 22\nhttps://www
+ .handball.net/match/392906
+LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/392906
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HSG Wetter Grundschöttel – HVE Villigst-Ergste 
+ II
+DTSTART;TZID=Europe/Berlin:20270417T193000
+DTEND;TZID=Europe/Berlin:20270417T213000
+DTSTAMP:20270417T173000Z
+UID:match-503403@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 20\nhttps:/
+ /www.handball.net/match/503403
+LOCATION:SPH Wetter-Oberwengern\, H.-V.-Fallersleben-Straße 28\, 58300 We
+ tter
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503403
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] HVE Villigst-Ergste II – DJK SG Boesperde II
+DTSTART;TZID=Europe/Berlin:20270425T180000
+DTEND;TZID=Europe/Berlin:20270425T200000
+DTSTAMP:20270425T160000Z
+UID:match-503409@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 21\nhttps://www.
+ handball.net/match/503409
+LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503409
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[HVE 2. Herren] ASC Dortmund II – HVE Villigst-Ergste II
+DTSTART;TZID=Europe/Berlin:20270502T160000
+DTEND;TZID=Europe/Berlin:20270502T180000
+DTSTAMP:20270502T140000Z
+UID:match-503415@handball.net
+DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 22\nhttps:/
+ /www.handball.net/match/503415
+LOCATION:SPH. Aplerbeck I\, Schweizer Allee 25\, 44287 Dortmund
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/503415
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+END:VCALENDAR

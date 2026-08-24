@@ -1,0 +1,142 @@
+"""Orchestrierung: je konfigurierter Mannschaft die Spiele holen -> aufs Saisonfenster
+filtern -> deduplizieren -> je Mannschaft und je Sammel-Feed eine .ics nach docs/
+schreiben, dazu eine Übersichtsseite.
+
+Aufruf:  python -m src.main
+"""
+from __future__ import annotations
+
+import sys
+from datetime import datetime
+from pathlib import Path
+
+from src.client import ApiError, HandballNetClient
+from src.config import Config
+from src.dashboard import render_dashboard
+from src.ics import build_calendar, to_ics_bytes
+from src.models import Match, TeamRef
+from src.parser import dedupe, to_match
+
+DOCS = Path("docs")
+
+
+def collect_team_matches(
+    client: HandballNetClient, team: TeamRef, cfg: Config
+) -> list[Match]:
+    """Ein Request je Mannschaft; die Staffel-Auswahl filtern wir lokal."""
+    rohe = client.matches(
+        team_id=team.team_id,
+        date_from=cfg.season_start,
+        date_to=cfg.season_end,
+    )
+    passend = [s for s in rohe if team.passt(s)]
+    if len(passend) != len(rohe):
+        print(f"    {len(rohe) - len(passend)} Spiele durch Staffel-Filter aussortiert")
+
+    matches = [m for m in (to_match(s, team) for s in passend) if m is not None]
+    verworfen = len(passend) - len(matches)
+    if verworfen:
+        print(f"    [warn] {verworfen} Spiele ohne lesbares Datum übersprungen", file=sys.stderr)
+
+    ligen = sorted({m.league for m in matches if m.league})
+    print(f"    {len(matches)} Spiele | {', '.join(ligen) or 'keine Staffel erkannt'}")
+    if len(ligen) > 1 and not (team.phase_ids or team.competition_ids):
+        # Genau hierfür gibt es den Staffel-Filter: handball.net führt unter einer
+        # team_id mitunter zwei echte Mannschaften (z.B. Oberliga + Bezirksliga).
+        print(
+            f"    [hinweis] {team.display} taucht in {len(ligen)} Staffeln auf. Sind das zwei "
+            "Mannschaften, phase_ids setzen (tools.discover zeigt die IDs).",
+            file=sys.stderr,
+        )
+    return dedupe(matches)
+
+
+def schreibe_feed(
+    matches: list[Match], *, slug: str, name: str, cfg: Config
+) -> tuple[str, str, int]:
+    cal = build_calendar(
+        matches,
+        calendar_name=name,
+        timezone=cfg.timezone,
+        duration_min=cfg.match_duration_min,
+    )
+    (DOCS / f"{slug}.ics").write_bytes(to_ics_bytes(cal))
+    return slug, name, len(matches)
+
+
+def main() -> int:
+    cfg = Config.from_env()
+    client = HandballNetClient()
+
+    print(f"→ Fenster {cfg.season_start} … {cfg.season_end} | {len(cfg.teams)} Mannschaft(en)")
+    je_team: dict[str, list[Match]] = {}
+    for team in cfg.teams:
+        zusatz = f" [{team.filter_beschreibung}]" if team.filter_beschreibung else ""
+        print(f"→ {team.display} (team_id {team.team_id}){zusatz}")
+        try:
+            je_team[team.feed_slug] = collect_team_matches(client, team, cfg)
+        except ApiError as exc:
+            print(f"    [fehler] {exc}", file=sys.stderr)
+
+    if not any(je_team.values()):
+        print("Keine Spiele gefunden – nichts geschrieben.", file=sys.stderr)
+        return 1
+
+    DOCS.mkdir(exist_ok=True)
+    feeds: list[tuple[str, str, int]] = []
+
+    # Ein Feed je Mannschaft – so kann man einzeln abonnieren und abbestellen.
+    for team in cfg.teams:
+        matches = je_team.get(team.feed_slug, [])
+        if not matches:
+            continue
+        feeds.append(
+            schreibe_feed(
+                matches,
+                slug=team.feed_slug,
+                name=f"{cfg.calendar_name}: {team.display}",
+                cfg=cfg,
+            )
+        )
+
+    # Zusätzlich die konfigurierten Sammel-Feeds.
+    for spec in cfg.feeds:
+        gesammelt: list[Match] = []
+        for team in cfg.teams:
+            if spec.gilt_fuer(team):
+                gesammelt.extend(je_team.get(team.feed_slug, []))
+        # Über Mannschaften hinweg nochmal deduplizieren: ein Derby der eigenen
+        # Erster gegen die Zweite ist ein Spiel, kein zweiter Termin.
+        gesammelt = dedupe(gesammelt)
+        if not gesammelt:
+            print(f"    [warn] Feed „{spec.label}“ bleibt leer", file=sys.stderr)
+            continue
+        feeds.append(
+            schreibe_feed(
+                gesammelt,
+                slug=spec.slug,
+                name=f"{cfg.calendar_name}: {spec.label}",
+                cfg=cfg,
+            )
+        )
+
+    ohne_zeit = sum(1 for ms in je_team.values() for m in ms if m.all_day)
+    if ohne_zeit:
+        print(f"→ {ohne_zeit} Spiel(e) ohne Anwurfzeit als ganztägiger Termin")
+
+    render_dashboard(
+        je_team,
+        cfg=cfg,
+        feeds=feeds,
+        out=DOCS / "index.html",
+        gebaut_am=datetime.now(),
+    )
+    print(f"→ {len(feeds)} Feeds geschrieben:")
+    for slug, name, anzahl in feeds:
+        print(f"   docs/{slug}.ics   {anzahl:>3} Spiele   {name}")
+    print(f"✓ {DOCS / 'index.html'}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
