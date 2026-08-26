@@ -1,30 +1,6 @@
 {
   "teams": [
     {
-      "label": "HVE 1. Herren",
-      "team_id": 86629,
-      "slug": "hve-1-herren",
-      "phase_ids": [
-        12647
-      ]
-    },
-    {
-      "label": "HVE 2. Herren",
-      "team_id": 86629,
-      "slug": "hve-2-herren",
-      "phase_ids": [
-        14340
-      ]
-    },
-    {
-      "label": "PSV Recklinghausen Damen",
-      "team_id": 87292,
-      "slug": "psv-damen",
-      "phase_ids": [
-        14058
-      ]
-    },
-    {
       "label": "2. Herren",
       "team_id": 81754,
       "phase_ids": [
@@ -39,11 +15,7 @@
     },
     {
       "label": "Ohne HVE 1. Herren",
-      "slug": "ohne-hve-1-herren",
-      "teams": [
-        "hve-2-herren",
-        "psv-damen"
-      ]
+      "slug": "ohne-hve-1-herren"
     }
   ]
 }
