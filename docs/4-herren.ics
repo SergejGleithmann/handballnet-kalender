@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//handballnet-kalender//Spielplan//DE
+X-WR-CALNAME:Handball: Kieler MTV 4
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:A · Suchsdorfer SV II – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20260920T190000
+DTEND;TZID=Europe/Berlin:20260920T210000
+DTSTAMP:20260826T123918Z
+UID:match-512740@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 3\nhtt
+ ps://www.handball.net/match/512740
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Suchsdorf\, Nienbrügger Weg 48\, 24107 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512740
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – TuS Gaarden
+DTSTART;TZID=Europe/Berlin:20261003T191500
+DTEND;TZID=Europe/Berlin:20261003T211500
+DTSTAMP:20260826T123918Z
+UID:match-512743@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 4\nhttps://
+ www.handball.net/match/512743
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512743
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · Büdelsdorfer TSV – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20261031T160000
+DTEND;TZID=Europe/Berlin:20261031T180000
+DTSTAMP:20260826T123918Z
+UID:match-512745@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 5\nhtt
+ ps://www.handball.net/match/512745
+LAST-MODIFIED:20260826T123918Z
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512745
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – Gettorfer TV II
+DTSTART;TZID=Europe/Berlin:20261108T164500
+DTEND;TZID=Europe/Berlin:20261108T184500
+DTSTAMP:20260826T123918Z
+UID:match-512750@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 6\nhttps://
+ www.handball.net/match/512750
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512750
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · HG OKT 3. Männer – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20261114T190000
+DTEND;TZID=Europe/Berlin:20261114T210000
+DTSTAMP:20260826T123918Z
+UID:match-512755@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 7\nhtt
+ ps://www.handball.net/match/512755
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Sporthalle Owschlag (Neu)\, Sportallee\, 24811 Owschlag
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512755
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – 3. Männer HSG 24109
+DTSTART;TZID=Europe/Berlin:20261129T113000
+DTEND;TZID=Europe/Berlin:20261129T133000
+DTSTAMP:20260826T123918Z
+UID:match-512760@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 8\nhttps://
+ www.handball.net/match/512760
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512760
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · HSG Fockbek/Nübbel/Alt Duvenstedt II – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20261205T170000
+DTEND;TZID=Europe/Berlin:20261205T190000
+DTSTAMP:20260826T123918Z
+UID:match-512764@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 9\nhtt
+ ps://www.handball.net/match/512764
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Sporthalle\, Achterfeld 21\, 24809 Nübbel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512764
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – Suchsdorfer SV II
+DTSTART;TZID=Europe/Berlin:20270123T190000
+DTEND;TZID=Europe/Berlin:20270123T210000
+DTSTAMP:20260826T123918Z
+UID:match-512776@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 12\nhttps:/
+ /www.handball.net/match/512776
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512776
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · TuS Gaarden – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20270206T160000
+DTEND;TZID=Europe/Berlin:20270206T180000
+DTSTAMP:20260826T123918Z
+UID:match-512779@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 13\nht
+ tps://www.handball.net/match/512779
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Gdyniahalle Hans-Geiger-Gymnasium\, Poppenrade 53\, 24148 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512779
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – Büdelsdorfer TSV
+DTSTART;TZID=Europe/Berlin:20270214T150000
+DTEND;TZID=Europe/Berlin:20270214T170000
+DTSTAMP:20260826T123918Z
+UID:match-512781@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 14\nhttps:/
+ /www.handball.net/match/512781
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512781
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · Gettorfer TV II – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20270221T161500
+DTEND;TZID=Europe/Berlin:20270221T181500
+DTSTAMP:20260826T123918Z
+UID:match-512786@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 15\nht
+ tps://www.handball.net/match/512786
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Parkschule Gettorf\, Kirchhofsallee 28-30\, 24214 Gettorf
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512786
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – HG OKT 3. Männer
+DTSTART;TZID=Europe/Berlin:20270307T133000
+DTEND;TZID=Europe/Berlin:20270307T153000
+DTSTAMP:20260826T123918Z
+UID:match-512791@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 16\nhttps:/
+ /www.handball.net/match/512791
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512791
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · 3. Männer HSG 24109 – Kieler MTV 4
+DTSTART;TZID=Europe/Berlin:20270313T150000
+DTEND;TZID=Europe/Berlin:20270313T170000
+DTSTAMP:20260826T123918Z
+UID:match-512796@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nAuswärtsspiel · Spieltag 17\nht
+ tps://www.handball.net/match/512796
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512796
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · Kieler MTV 4 – HSG Fockbek/Nübbel/Alt Duvenstedt II
+DTSTART;TZID=Europe/Berlin:20270321T190000
+DTEND;TZID=Europe/Berlin:20270321T210000
+DTSTAMP:20260826T123918Z
+UID:match-512800@handball.net
+DESCRIPTION:Kreisklasse Männer Kiel/RD\nHeimspiel · Spieltag 18\nhttps:/
+ /www.handball.net/match/512800
+LAST-MODIFIED:20260826T123918Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/512800
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+END:VCALENDAR

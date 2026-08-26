@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//handballnet-kalender//Spielplan//DE
-X-WR-CALNAME:Handball: 1. Herren
+X-WR-CALNAME:Handball: Kieler MTV 1
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -22,15 +22,15 @@ TZOFFSETTO:+0100
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:A · MTV Lübeck II – 1. Herren
+SUMMARY:A · MTV Lübeck II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20260829T200000
 DTEND;TZID=Europe/Berlin:20260829T220000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449288@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 1\nSchiedsrichter: Jannis Kahlcke\, Jonas Ott
  o\nhttps://www.handball.net/match/449288
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Struckbachhalle\, Georg-Kerschensteiner-Straße 29\, 23554 Lübec
  k
 STATUS:CONFIRMED
@@ -38,196 +38,196 @@ URL:https://www.handball.net/match/449288
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – TuS Aumühle-Wohltorf
+SUMMARY:H · Kieler MTV 1 – TuS Aumühle-Wohltorf
 DTSTART;TZID=Europe/Berlin:20260906T170000
 DTEND;TZID=Europe/Berlin:20260906T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449293@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 2\nhttps://www.handball.net/match/449293
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449293
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · MTV Dänischenhagen – 1. Herren
+SUMMARY:A · MTV Dänischenhagen – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20260912T173000
 DTEND;TZID=Europe/Berlin:20260912T193000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449297@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 3\nhttps://www.handball.net/match/449297
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449297
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – TSV Kronshagen II
+SUMMARY:H · Kieler MTV 1 – TSV Kronshagen II
 DTSTART;TZID=Europe/Berlin:20260919T190000
 DTEND;TZID=Europe/Berlin:20260919T210000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449304@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 4\nhttps://www.handball.net/match/449304
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449304
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · SC Kieler Förde 1. Männer – 1. Herren
+SUMMARY:A · SC Kieler Förde 1. Männer – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20260927T170000
 DTEND;TZID=Europe/Berlin:20260927T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449311@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 5\nhttps://www.handball.net/match/449311
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449311
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – TSV Schwarzenbek
+SUMMARY:H · Kieler MTV 1 – TSV Schwarzenbek
 DTSTART;TZID=Europe/Berlin:20261101T163000
 DTEND;TZID=Europe/Berlin:20261101T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449318@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 6\nhttps://www.handball.net/match/449318
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449318
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – HSG Mönkeberg-Schönkirchen II
+SUMMARY:H · Kieler MTV 1 – HSG Mönkeberg-Schönkirchen II
 DTSTART;TZID=Europe/Berlin:20261107T190000
 DTEND;TZID=Europe/Berlin:20261107T210000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449324@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 7\nhttps://www.handball.net/match/449324
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449324
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TSV Schönberg – 1. Herren
+SUMMARY:A · TSV Schönberg – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261115T170000
 DTEND;TZID=Europe/Berlin:20261115T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449330@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 8\nhttps://www.handball.net/match/449330
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Schönberg\, Am Friedhofsweg\, 24217 Schönberg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449330
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – SV Henstedt-Ulzburg
+SUMMARY:H · Kieler MTV 1 – SV Henstedt-Ulzburg
 DTSTART;TZID=Europe/Berlin:20261129T170000
 DTEND;TZID=Europe/Berlin:20261129T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449336@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 9\nhttps://www.handball.net/match/449336
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449336
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · Atsv Stockelsdorf – 1. Herren
+SUMMARY:A · Atsv Stockelsdorf – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261206T163000
 DTEND;TZID=Europe/Berlin:20261206T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449342@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 10\nhttps://www.handball.net/match/449342
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Großsporthalle\, Rensefelder Weg 6\, 23617 Stockelsdorf
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449342
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – VFL Lübeck-SCHWARTAU II
+SUMMARY:H · Kieler MTV 1 – VFL Lübeck-SCHWARTAU II
 DTSTART;TZID=Europe/Berlin:20261213T170000
 DTEND;TZID=Europe/Berlin:20261213T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449348@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 11\nhttps://www.handball.net/match/449348
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449348
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – MTV Lübeck II
+SUMMARY:H · Kieler MTV 1 – MTV Lübeck II
 DTSTART;TZID=Europe/Berlin:20270110T170000
 DTEND;TZID=Europe/Berlin:20270110T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449354@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 12\nhttps://www.handball.net/match/449354
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449354
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TuS Aumühle-Wohltorf – 1. Herren
+SUMMARY:A · TuS Aumühle-Wohltorf – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270124T170000
 DTEND;TZID=Europe/Berlin:20270124T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449359@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 13\nhttps://www.handball.net/match/449359
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Heinrich-Willers-Halle\, Ernst-Anton-Straße 27\, 21521 Aumühle
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449359
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – MTV Dänischenhagen
+SUMMARY:H · Kieler MTV 1 – MTV Dänischenhagen
 DTSTART;TZID=Europe/Berlin:20270130T190000
 DTEND;TZID=Europe/Berlin:20270130T210000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449363@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 14\nhttps://www.handball.net/match/449363
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449363
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TSV Kronshagen II – 1. Herren
+SUMMARY:A · TSV Kronshagen II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270206T190000
 DTEND;TZID=Europe/Berlin:20270206T210000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449370@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 15\nhttps://www.handball.net/match/449370
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Sporthalle Kronshagen (Mit Tribüne)\, Suchsdorfer Weg 66\, 24119
   Kronshagen
 STATUS:CONFIRMED
@@ -235,28 +235,28 @@ URL:https://www.handball.net/match/449370
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – SC Kieler Förde 1. Männer
+SUMMARY:H · Kieler MTV 1 – SC Kieler Förde 1. Männer
 DTSTART;TZID=Europe/Berlin:20270214T163000
 DTEND;TZID=Europe/Berlin:20270214T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449377@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 16\nhttps://www.handball.net/match/449377
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449377
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TSV Schwarzenbek – 1. Herren
+SUMMARY:A · TSV Schwarzenbek – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270220T183000
 DTEND;TZID=Europe/Berlin:20270220T203000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449384@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 17\nhttps://www.handball.net/match/449384
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Sporthalle Berliner Straße\, Berliner Straße 12\, 21493 Schwarz
  enbek
 STATUS:CONFIRMED
@@ -264,70 +264,70 @@ URL:https://www.handball.net/match/449384
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Mönkeberg-Schönkirchen II – 1. Herren
+SUMMARY:A · HSG Mönkeberg-Schönkirchen II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270228T150000
 DTEND;TZID=Europe/Berlin:20270228T170000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449390@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 18\nhttps://www.handball.net/match/449390
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449390
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – TSV Schönberg
+SUMMARY:H · Kieler MTV 1 – TSV Schönberg
 DTSTART;TZID=Europe/Berlin:20270307T140000
 DTEND;TZID=Europe/Berlin:20270307T160000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449396@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 19\nhttps://www.handball.net/match/449396
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449396
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · SV Henstedt-Ulzburg – 1. Herren
+SUMMARY:A · SV Henstedt-Ulzburg – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270313T180000
 DTEND;TZID=Europe/Berlin:20270313T200000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449402@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 20\nhttps://www.handball.net/match/449402
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Alstergymnasium 2\, Maurepass Straße 67\, 24558 Henstedt-Ulzburg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449402
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Herren – Atsv Stockelsdorf
+SUMMARY:H · Kieler MTV 1 – Atsv Stockelsdorf
 DTSTART;TZID=Europe/Berlin:20270418T170000
 DTEND;TZID=Europe/Berlin:20270418T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449408@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nHeimspiel · Spieltag 21\nhttps://www.handball.net/match/449408
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/449408
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · VFL Lübeck-SCHWARTAU II – 1. Herren
+SUMMARY:A · VFL Lübeck-SCHWARTAU II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270424T170000
 DTEND;TZID=Europe/Berlin:20270424T190000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-449414@handball.net
 DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
  \nAuswärtsspiel · Spieltag 22\nhttps://www.handball.net/match/449414
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:SZ Jahnstraße Sporthalle 1\, Ludwig-Jahn-Straße\, 23611 Bad Sch
  wartau
 STATUS:CONFIRMED

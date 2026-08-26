@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//handballnet-kalender//Spielplan//DE
-X-WR-CALNAME:Handball: 1. Damen
+X-WR-CALNAME:Handball: Kieler MTV 1
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
@@ -22,238 +22,238 @@ TZOFFSETTO:+0100
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:A · TuS Gaarden – 1. Damen
+SUMMARY:A · TuS Gaarden – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20260906T150000
 DTEND;TZID=Europe/Berlin:20260906T170000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505908@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 2\nhttps:
  //www.handball.net/match/505908
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Gdyniahalle Hans-Geiger-Gymnasium\, Poppenrade 53\, 24148 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505908
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · MTV Dänischenhagen II – 1. Damen
+SUMMARY:A · MTV Dänischenhagen II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20260913T163000
 DTEND;TZID=Europe/Berlin:20260913T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505910@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 3\nhttps:
  //www.handball.net/match/505910
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505910
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – HSG Holstein Kiel/Kronshagen III
+SUMMARY:H · Kieler MTV 1 – HSG Holstein Kiel/Kronshagen III
 DTSTART;TZID=Europe/Berlin:20260917T193000
 DTEND;TZID=Europe/Berlin:20260917T213000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505901@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 1\nhttps://www
  .handball.net/match/505901
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Bresthalle\, Lantziusstraße 62\, 24114 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505901
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – THW Kiel
+SUMMARY:H · Kieler MTV 1 – THW Kiel
 DTSTART;TZID=Europe/Berlin:20260927T130000
 DTEND;TZID=Europe/Berlin:20260927T150000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505918@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 4\nhttps://www
  .handball.net/match/505918
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505918
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Mönkeberg-Schönkirchen II – 1. Damen
+SUMMARY:A · HSG Mönkeberg-Schönkirchen II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261003T193000
 DTEND;TZID=Europe/Berlin:20261003T213000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505925@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 5\nhttps:
  //www.handball.net/match/505925
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505925
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · 1. Frauen HSG 24109 – 1. Damen
+SUMMARY:A · 1. Frauen HSG 24109 – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261031T163000
 DTEND;TZID=Europe/Berlin:20261031T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505931@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 6\nhttps:
  //www.handball.net/match/505931
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505931
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – TuS Felde
+SUMMARY:H · Kieler MTV 1 – TuS Felde
 DTSTART;TZID=Europe/Berlin:20261107T144500
 DTEND;TZID=Europe/Berlin:20261107T164500
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505936@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 7\nhttps://www
  .handball.net/match/505936
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505936
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · SC Kieler Förde 1. Frauen – 1. Damen
+SUMMARY:A · SC Kieler Förde 1. Frauen – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261115T160000
 DTEND;TZID=Europe/Berlin:20261115T180000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505940@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 8\nhttps:
  //www.handball.net/match/505940
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505940
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · Preetzer TSV II – 1. Damen
+SUMMARY:A · Preetzer TSV II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261206T160000
 DTEND;TZID=Europe/Berlin:20261206T180000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505952@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 10\nhttps
  ://www.handball.net/match/505952
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Blandfordhalle Preetz\, Castöhlenweg 4\, 24211 Preetz
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505952
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · Suchsdorfer SV II – 1. Damen
+SUMMARY:A · Suchsdorfer SV II – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20261213T153000
 DTEND;TZID=Europe/Berlin:20261213T173000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505960@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 11\nhttps
  ://www.handball.net/match/505960
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Suchsdorf\, Nienbrügger Weg 48\, 24107 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505960
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Holstein Kiel/Kronshagen III – 1. Damen
+SUMMARY:A · HSG Holstein Kiel/Kronshagen III – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270110T184500
 DTEND;TZID=Europe/Berlin:20270110T204500
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505967@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 12\nhttps
  ://www.handball.net/match/505967
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505967
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – TuS Gaarden
+SUMMARY:H · Kieler MTV 1 – TuS Gaarden
 DTSTART;TZID=Europe/Berlin:20270123T171500
 DTEND;TZID=Europe/Berlin:20270123T191500
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505974@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 13\nhttps://ww
  w.handball.net/match/505974
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505974
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – MTV Dänischenhagen II
+SUMMARY:H · Kieler MTV 1 – MTV Dänischenhagen II
 DTSTART;TZID=Europe/Berlin:20270131T101500
 DTEND;TZID=Europe/Berlin:20270131T121500
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505976@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 14\nhttps://ww
  w.handball.net/match/505976
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505976
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · THW Kiel – 1. Damen
+SUMMARY:A · THW Kiel – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270206T180000
 DTEND;TZID=Europe/Berlin:20270206T200000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505984@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 15\nhttps
  ://www.handball.net/match/505984
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Igs-Friedrichsort\, Steenbarg 10\, 24159 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505984
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – HSG Mönkeberg-Schönkirchen II
+SUMMARY:H · Kieler MTV 1 – HSG Mönkeberg-Schönkirchen II
 DTSTART;TZID=Europe/Berlin:20270220T163000
 DTEND;TZID=Europe/Berlin:20270220T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505991@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 16\nhttps://ww
  w.handball.net/match/505991
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505991
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – 1. Frauen HSG 24109
+SUMMARY:H · Kieler MTV 1 – 1. Frauen HSG 24109
 DTSTART;TZID=Europe/Berlin:20270227T163000
 DTEND;TZID=Europe/Berlin:20270227T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-505997@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 17\nhttps://ww
  w.handball.net/match/505997
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/505997
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TuS Felde – 1. Damen
+SUMMARY:A · TuS Felde – Kieler MTV 1
 DTSTART;TZID=Europe/Berlin:20270313T183000
 DTEND;TZID=Europe/Berlin:20270313T203000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-506002@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 18\nhttps
  ://www.handball.net/match/506002
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Sporthalle Felde\, Am Sportplatz\, Hasselrade\, Felde\, Amt Achte
  rwehr\, Kreis Rendsburg-Eckernförde\, Schleswig-Holstein\, 24242\, Deutsc
  hland
@@ -262,42 +262,42 @@ URL:https://www.handball.net/match/506002
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – SC Kieler Förde 1. Frauen
+SUMMARY:H · Kieler MTV 1 – SC Kieler Förde 1. Frauen
 DTSTART;TZID=Europe/Berlin:20270321T171500
 DTEND;TZID=Europe/Berlin:20270321T191500
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-506006@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 19\nhttps://ww
  w.handball.net/match/506006
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/506006
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – Preetzer TSV II
+SUMMARY:H · Kieler MTV 1 – Preetzer TSV II
 DTSTART;TZID=Europe/Berlin:20270424T163000
 DTEND;TZID=Europe/Berlin:20270424T183000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-506018@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 21\nhttps://ww
  w.handball.net/match/506018
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/506018
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · 1. Damen – Suchsdorfer SV II
+SUMMARY:H · Kieler MTV 1 – Suchsdorfer SV II
 DTSTART;TZID=Europe/Berlin:20270502T140000
 DTEND;TZID=Europe/Berlin:20270502T160000
-DTSTAMP:20260826T083308Z
+DTSTAMP:20260826T123918Z
 UID:match-506026@handball.net
 DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 22\nhttps://ww
  w.handball.net/match/506026
-LAST-MODIFIED:20260826T083308Z
+LAST-MODIFIED:20260826T123918Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/506026
