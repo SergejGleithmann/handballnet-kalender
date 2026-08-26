@@ -1,28 +1,32 @@
 {
   "teams": [
     {
-      "label": "2. Herren",
+      "label": "Kieler MTV 2",
+      "slug": "2-herren",
       "team_id": 81754,
       "phase_ids": [
         12962
       ]
     },
     {
-      "label": "1. Herren",
+      "label": "Kieler MTV 1",
+      "slug": "1-herren",
       "team_id": 81590,
       "phase_ids": [
         14063
       ]
     },
     {
-      "label": "1. Damen",
+      "label": "Kieler MTV 1",
+      "slug": "1-damen",
       "team_id": 81919,
       "phase_ids": [
         12966
       ]
     },
     {
-      "label": "4. Herren",
+      "label": "Kieler MTV 4",
+      "slug": "4-herren",
       "team_id": 81782,
       "phase_ids": [
         12988
@@ -33,10 +37,6 @@
     {
       "label": "Alle Mannschaften",
       "slug": "alle"
-    },
-    {
-      "label": "Ohne HVE 1. Herren",
-      "slug": "ohne-hve-1-herren"
     }
   ]
 }
