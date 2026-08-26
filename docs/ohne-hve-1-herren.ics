@@ -22,623 +22,906 @@ TZOFFSETTO:+0100
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:A · TV Arnsberg H1 – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20260912T200000
-DTEND;TZID=Europe/Berlin:20260912T220000
-DTSTAMP:20260826T074056Z
-UID:match-503289@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 1\nhttps://
- www.handball.net/match/503289
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Rundturnhalle\, Promenade 12 (Anfahrt Über Feauxweg)\, 59821 Arn
- sberg
+SUMMARY:A · MTV Lübeck II – 1. Herren
+DTSTART;TZID=Europe/Berlin:20260829T200000
+DTEND;TZID=Europe/Berlin:20260829T220000
+DTSTAMP:20260826T083308Z
+UID:match-449288@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 1\nSchiedsrichter: Jannis Kahlcke\, Jonas Ott
+ o\nhttps://www.handball.net/match/449288
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Struckbachhalle\, Georg-Kerschensteiner-Straße 29\, 23554 Lübec
+ k
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503289
+URL:https://www.handball.net/match/449288
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – TV Aldekerk
-DTSTART;TZID=Europe/Berlin:20260913T170000
-DTEND;TZID=Europe/Berlin:20260913T190000
-DTSTAMP:20260826T074056Z
-UID:match-392779@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 1\nSchiedsricht
- er: Dennis Schaaf\, Jérôme Breuer\nhttps://www.handball.net/match/392779
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:A · 1. Männer HSG 24109 – 2. Herren
+DTSTART;TZID=Europe/Berlin:20260830T170000
+DTEND;TZID=Europe/Berlin:20260830T190000
+DTSTAMP:20260826T083308Z
+UID:match-504256@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 1\nSchie
+ dsrichter: Sascha Steltenkamp\nhttps://www.handball.net/match/504256
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392779
+URL:https://www.handball.net/match/504256
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TB Wülfrath – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20260919T200000
-DTEND;TZID=Europe/Berlin:20260919T220000
-DTSTAMP:20260826T074056Z
-UID:match-392785@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 2\nSchieds
- richter: Dominik Zahs\, Nils Zahs\nhttps://www.handball.net/match/392785
-LAST-MODIFIED:20260826T074056Z
-LOCATION:MTC Arena Wülfrath\, Fortuna Str. 30\, 42489 Wülfrath
+SUMMARY:A · TuS Gaarden – 1. Damen
+DTSTART;TZID=Europe/Berlin:20260906T150000
+DTEND;TZID=Europe/Berlin:20260906T170000
+DTSTAMP:20260826T083308Z
+UID:match-505908@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 2\nhttps:
+ //www.handball.net/match/505908
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Gdyniahalle Hans-Geiger-Gymnasium\, Poppenrade 53\, 24148 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392785
+URL:https://www.handball.net/match/505908
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – SG Menden 2
-DTSTART;TZID=Europe/Berlin:20260920T180000
-DTEND;TZID=Europe/Berlin:20260920T200000
-DTSTAMP:20260826T074056Z
-UID:match-503294@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 2\nhttps://www.h
- andball.net/match/503294
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:H · 2. Herren – Heikendorfer SV
+DTSTART;TZID=Europe/Berlin:20260906T160000
+DTEND;TZID=Europe/Berlin:20260906T180000
+DTSTAMP:20260826T083308Z
+UID:match-504261@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 2\nSchiedsric
+ hter: Dorte Wenn\, Ulrike Berg\nhttps://www.handball.net/match/504261
+LAST-MODIFIED:20260826T083308Z
+LOCATION:St-Andrews-Halle/Gelehrtenschule\, Breiter Weg\, 24105 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503294
+URL:https://www.handball.net/match/504261
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TV Brechten II – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20260926T180000
-DTEND;TZID=Europe/Berlin:20260926T200000
-DTSTAMP:20260826T074056Z
-UID:match-503298@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 3\nhttps://
- www.handball.net/match/503298
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Eving (Alt)\, Thüringer Str. 30\, 44339 Dortmund
+SUMMARY:H · 1. Herren – TuS Aumühle-Wohltorf
+DTSTART;TZID=Europe/Berlin:20260906T170000
+DTEND;TZID=Europe/Berlin:20260906T190000
+DTSTAMP:20260826T083308Z
+UID:match-449293@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 2\nhttps://www.handball.net/match/449293
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503298
+URL:https://www.handball.net/match/449293
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – Thüringer HC II
+SUMMARY:A · MTV Dänischenhagen – 1. Herren
+DTSTART;TZID=Europe/Berlin:20260912T173000
+DTEND;TZID=Europe/Berlin:20260912T193000
+DTSTAMP:20260826T083308Z
+UID:match-449297@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 3\nhttps://www.handball.net/match/449297
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449297
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · TSV Plön – 2. Herren
+DTSTART;TZID=Europe/Berlin:20260913T160000
+DTEND;TZID=Europe/Berlin:20260913T180000
+DTSTAMP:20260826T083308Z
+UID:match-504267@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 3\nhttps
+ ://www.handball.net/match/504267
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Schiffsthalhalle\, Am Schiffsthal\, 24306 Plön
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504267
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · MTV Dänischenhagen II – 1. Damen
+DTSTART;TZID=Europe/Berlin:20260913T163000
+DTEND;TZID=Europe/Berlin:20260913T183000
+DTSTAMP:20260826T083308Z
+UID:match-505910@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 3\nhttps:
+ //www.handball.net/match/505910
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505910
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Damen – HSG Holstein Kiel/Kronshagen III
+DTSTART;TZID=Europe/Berlin:20260917T193000
+DTEND;TZID=Europe/Berlin:20260917T213000
+DTSTAMP:20260826T083308Z
+UID:match-505901@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 1\nhttps://www
+ .handball.net/match/505901
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Bresthalle\, Lantziusstraße 62\, 24114 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505901
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Herren – TSV Kronshagen II
+DTSTART;TZID=Europe/Berlin:20260919T190000
+DTEND;TZID=Europe/Berlin:20260919T210000
+DTSTAMP:20260826T083308Z
+UID:match-449304@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 4\nhttps://www.handball.net/match/449304
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449304
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Damen – THW Kiel
+DTSTART;TZID=Europe/Berlin:20260927T130000
+DTEND;TZID=Europe/Berlin:20260927T150000
+DTSTAMP:20260826T083308Z
+UID:match-505918@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 4\nhttps://www
+ .handball.net/match/505918
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505918
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 2. Herren – HSG Wabo 2011
+DTSTART;TZID=Europe/Berlin:20260927T150000
+DTEND;TZID=Europe/Berlin:20260927T170000
+DTSTAMP:20260826T083308Z
+UID:match-504270@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 4\nhttps://ww
+ w.handball.net/match/504270
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504270
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · SC Kieler Förde 1. Männer – 1. Herren
 DTSTART;TZID=Europe/Berlin:20260927T170000
 DTEND;TZID=Europe/Berlin:20260927T190000
-DTSTAMP:20260826T074056Z
-UID:match-392792@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 3\nSchiedsricht
- er: Benjamin Scheld\, Zeki Kaplan\nhttps://www.handball.net/match/392792
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+DTSTAMP:20260826T083308Z
+UID:match-449311@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 5\nhttps://www.handball.net/match/449311
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392792
+URL:https://www.handball.net/match/449311
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · BV Borussia 09 Dortmund II – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20261004T160000
-DTEND;TZID=Europe/Berlin:20261004T180000
-DTSTAMP:20260826T074056Z
-UID:match-392796@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 4\nhttps:/
- /www.handball.net/match/392796
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Hörde I\, Stettiner Str. 12\, 44263 Dortmund
+SUMMARY:A · TSV Altenholz III – 2. Herren
+DTSTART;TZID=Europe/Berlin:20261003T140000
+DTEND;TZID=Europe/Berlin:20261003T160000
+DTSTAMP:20260826T083308Z
+UID:match-504277@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 5\nhttps
+ ://www.handball.net/match/504277
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Kreishalle Altenholz\, Posener Straße\, 24161 Altenholz-Stift
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392796
+URL:https://www.handball.net/match/504277
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – HSG Herdecke/Ende II
-DTSTART;TZID=Europe/Berlin:20261004T180000
-DTEND;TZID=Europe/Berlin:20261004T200000
-DTSTAMP:20260826T074056Z
-UID:match-503305@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 4\nhttps://www.h
- andball.net/match/503305
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · HSG Mönkeberg-Schönkirchen II – 1. Damen
+DTSTART;TZID=Europe/Berlin:20261003T193000
+DTEND;TZID=Europe/Berlin:20261003T213000
+DTSTAMP:20260826T083308Z
+UID:match-505925@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 5\nhttps:
+ //www.handball.net/match/505925
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503305
+URL:https://www.handball.net/match/505925
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TuS Borussia Höchsten – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20261010T200000
-DTEND;TZID=Europe/Berlin:20261010T220000
-DTSTAMP:20260826T074056Z
-UID:match-503312@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 5\nhttps://
- www.handball.net/match/503312
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Wellinghofen\, Am Lieberfeld 13\, 44265 Dortmund
+SUMMARY:A · 1. Frauen HSG 24109 – 1. Damen
+DTSTART;TZID=Europe/Berlin:20261031T163000
+DTEND;TZID=Europe/Berlin:20261031T183000
+DTSTAMP:20260826T083308Z
+UID:match-505931@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 6\nhttps:
+ //www.handball.net/match/505931
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503312
+URL:https://www.handball.net/match/505931
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – HSG Bad Wildungen Vipers
-DTSTART;TZID=Europe/Berlin:20261011T170000
-DTEND;TZID=Europe/Berlin:20261011T190000
-DTSTAMP:20260826T074056Z
-UID:match-392805@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 5\nhttps://www.
- handball.net/match/392805
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 1. Herren – TSV Schwarzenbek
+DTSTART;TZID=Europe/Berlin:20261101T163000
+DTEND;TZID=Europe/Berlin:20261101T183000
+DTSTAMP:20260826T083308Z
+UID:match-449318@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 6\nhttps://www.handball.net/match/449318
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392805
+URL:https://www.handball.net/match/449318
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TSG 1893 Leihgestern – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20261017T193000
-DTEND;TZID=Europe/Berlin:20261017T213000
-DTSTAMP:20260826T074056Z
-UID:match-392807@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 6\nhttps:/
- /www.handball.net/match/392807
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Stadthalle Linden\, Konrad-Adenauer-Straße\, 35440 Linden
+SUMMARY:H · 2. Herren – MTV Dänischenhagen II
+DTSTART;TZID=Europe/Berlin:20261101T180000
+DTEND;TZID=Europe/Berlin:20261101T200000
+DTSTAMP:20260826T083308Z
+UID:match-504284@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 6\nhttps://ww
+ w.handball.net/match/504284
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392807
+URL:https://www.handball.net/match/504284
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – TV Wickede H1
-DTSTART;TZID=Europe/Berlin:20261031T180000
-DTEND;TZID=Europe/Berlin:20261031T200000
-DTSTAMP:20260826T074056Z
-UID:match-503319@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 6\nhttps://www.h
- andball.net/match/503319
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:H · 1. Damen – TuS Felde
+DTSTART;TZID=Europe/Berlin:20261107T144500
+DTEND;TZID=Europe/Berlin:20261107T164500
+DTSTAMP:20260826T083308Z
+UID:match-505936@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 7\nhttps://www
+ .handball.net/match/505936
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503319
+URL:https://www.handball.net/match/505936
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – TSG 1846 Mainz-Bretzenheim
-DTSTART;TZID=Europe/Berlin:20261031T190000
-DTEND;TZID=Europe/Berlin:20261031T210000
-DTSTAMP:20260826T074056Z
-UID:match-392818@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 7\nhttps://www.
- handball.net/match/392818
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 1. Herren – HSG Mönkeberg-Schönkirchen II
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T210000
+DTSTAMP:20260826T083308Z
+UID:match-449324@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 7\nhttps://www.handball.net/match/449324
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392818
+URL:https://www.handball.net/match/449324
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – 1. FSV Mainz 05 II
-DTSTART;TZID=Europe/Berlin:20261108T170000
-DTEND;TZID=Europe/Berlin:20261108T190000
-DTSTAMP:20260826T074056Z
-UID:match-392819@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 8\nhttps://www.
- handball.net/match/392819
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:A · Gettorfer TV – 2. Herren
+DTSTART;TZID=Europe/Berlin:20261108T181500
+DTEND;TZID=Europe/Berlin:20261108T201500
+DTSTAMP:20260826T083308Z
+UID:match-504291@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 7\nhttps
+ ://www.handball.net/match/504291
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Parkschule Gettorf\, Kirchhofsallee 28-30\, 24214 Gettorf
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392819
+URL:https://www.handball.net/match/504291
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – TV Neheim H1
-DTSTART;TZID=Europe/Berlin:20261108T180000
-DTEND;TZID=Europe/Berlin:20261108T200000
-DTSTAMP:20260826T074056Z
-UID:match-503325@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 7\nhttps://www.h
- andball.net/match/503325
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · SC Kieler Förde 1. Frauen – 1. Damen
+DTSTART;TZID=Europe/Berlin:20261115T160000
+DTEND;TZID=Europe/Berlin:20261115T180000
+DTSTAMP:20260826T083308Z
+UID:match-505940@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 8\nhttps:
+ //www.handball.net/match/505940
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503325
+URL:https://www.handball.net/match/505940
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TuS Königsdorf – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20261114T160000
-DTEND;TZID=Europe/Berlin:20261114T180000
-DTSTAMP:20260826T074056Z
-UID:match-392829@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 9\nhttps:/
- /www.handball.net/match/392829
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Gerhard-Berger-Halle\, Pfeilstr.\, 50226 Frechen
+SUMMARY:A · TSV Schönberg – 1. Herren
+DTSTART;TZID=Europe/Berlin:20261115T170000
+DTEND;TZID=Europe/Berlin:20261115T190000
+DTSTAMP:20260826T083308Z
+UID:match-449330@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 8\nhttps://www.handball.net/match/449330
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Schönberg\, Am Friedhofsweg\, 24217 Schönberg
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392829
+URL:https://www.handball.net/match/449330
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · SC Huckarde Rahm – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20261121T190000
-DTEND;TZID=Europe/Berlin:20261121T210000
-DTSTAMP:20260826T074056Z
-UID:match-503331@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 8\nhttps://
- www.handball.net/match/503331
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Huckarde\, Parsevalstraße 170\, 44369 Dortmund
+SUMMARY:H · 2. Herren – HSG Mönkeberg-Schönkirchen III
+DTSTART;TZID=Europe/Berlin:20261115T180000
+DTEND;TZID=Europe/Berlin:20261115T200000
+DTSTAMP:20260826T083308Z
+UID:match-504298@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 8\nhttps://ww
+ w.handball.net/match/504298
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503331
+URL:https://www.handball.net/match/504298
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – HSG Bensheim/Auerbach II
-DTSTART;TZID=Europe/Berlin:20261122T170000
-DTEND;TZID=Europe/Berlin:20261122T190000
-DTSTAMP:20260826T074056Z
-UID:match-392832@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 10\nhttps://www
- .handball.net/match/392832
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 2. Herren – Kieler Turnverein
+DTSTART;TZID=Europe/Berlin:20261129T150000
+DTEND;TZID=Europe/Berlin:20261129T170000
+DTSTAMP:20260826T083308Z
+UID:match-504304@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 9\nhttps://ww
+ w.handball.net/match/504304
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392832
+URL:https://www.handball.net/match/504304
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – HSG Wetter Grundschöttel
-DTSTART;TZID=Europe/Berlin:20261129T180000
-DTEND;TZID=Europe/Berlin:20261129T200000
-DTSTAMP:20260826T074056Z
-UID:match-503337@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 9\nhttps://www.h
- andball.net/match/503337
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:H · 1. Herren – SV Henstedt-Ulzburg
+DTSTART;TZID=Europe/Berlin:20261129T170000
+DTEND;TZID=Europe/Berlin:20261129T190000
+DTSTAMP:20260826T083308Z
+UID:match-449336@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 9\nhttps://www.handball.net/match/449336
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503337
+URL:https://www.handball.net/match/449336
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · 1.Fc Köln – PSV Recklinghausen Damen
+SUMMARY:A · FT Vorwärts Kiel – 2. Herren
 DTSTART;TZID=Europe/Berlin:20261205T193000
 DTEND;TZID=Europe/Berlin:20261205T213000
-DTSTAMP:20260826T074056Z
-UID:match-392840@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 11\nhttps:
- //www.handball.net/match/392840
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Köln Europaschule\, Raderthalgürtel 3\, 50968 Köln
+DTSTAMP:20260826T083308Z
+UID:match-504310@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 10\nhttp
+ s://www.handball.net/match/504310
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Igs-Friedrichsort\, Steenbarg 10\, 24159 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392840
+URL:https://www.handball.net/match/504310
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · DJK SG Boesperde II – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20261205T193000
-DTEND;TZID=Europe/Berlin:20261205T213000
-DTSTAMP:20260826T074056Z
-UID:match-503343@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 10\nhttps:/
- /www.handball.net/match/503343
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Bösperde\, Bahnhofstraße In Bösperde\, 58708 Menden
- -Bösperde
+SUMMARY:A · Preetzer TSV II – 1. Damen
+DTSTART;TZID=Europe/Berlin:20261206T160000
+DTEND;TZID=Europe/Berlin:20261206T180000
+DTSTAMP:20260826T083308Z
+UID:match-505952@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 10\nhttps
+ ://www.handball.net/match/505952
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Blandfordhalle Preetz\, Castöhlenweg 4\, 24211 Preetz
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503343
+URL:https://www.handball.net/match/505952
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TV Aldekerk – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20261213T163000
-DTEND;TZID=Europe/Berlin:20261213T183000
-DTSTAMP:20260826T074056Z
-UID:match-392845@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 12\nhttps:
- //www.handball.net/match/392845
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Vogteihalle\, Kerken\, Slousenweg 12\, 47647 Kerken
+SUMMARY:A · Atsv Stockelsdorf – 1. Herren
+DTSTART;TZID=Europe/Berlin:20261206T163000
+DTEND;TZID=Europe/Berlin:20261206T183000
+DTSTAMP:20260826T083308Z
+UID:match-449342@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 10\nhttps://www.handball.net/match/449342
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Großsporthalle\, Rensefelder Weg 6\, 23617 Stockelsdorf
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392845
+URL:https://www.handball.net/match/449342
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – ASC Dortmund II
-DTSTART;TZID=Europe/Berlin:20261219T180000
-DTEND;TZID=Europe/Berlin:20261219T200000
-DTSTAMP:20260826T074056Z
-UID:match-503349@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 11\nhttps://www.
- handball.net/match/503349
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · Suchsdorfer SV II – 1. Damen
+DTSTART;TZID=Europe/Berlin:20261213T153000
+DTEND;TZID=Europe/Berlin:20261213T173000
+DTSTAMP:20260826T083308Z
+UID:match-505960@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 11\nhttps
+ ://www.handball.net/match/505960
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Suchsdorf\, Nienbrügger Weg 48\, 24107 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503349
+URL:https://www.handball.net/match/505960
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – TB Wülfrath
-DTSTART;TZID=Europe/Berlin:20261220T170000
-DTEND;TZID=Europe/Berlin:20261220T190000
-DTSTAMP:20260826T074056Z
-UID:match-392851@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 13\nhttps://www
- .handball.net/match/392851
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 1. Herren – VFL Lübeck-SCHWARTAU II
+DTSTART;TZID=Europe/Berlin:20261213T170000
+DTEND;TZID=Europe/Berlin:20261213T190000
+DTSTAMP:20260826T083308Z
+UID:match-449348@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 11\nhttps://www.handball.net/match/449348
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392851
+URL:https://www.handball.net/match/449348
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · Thüringer HC II – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20270123T160000
-DTEND;TZID=Europe/Berlin:20270123T180000
-DTSTAMP:20260826T074056Z
-UID:match-392858@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 14\nhttps:
- //www.handball.net/match/392858
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Erfurt\, Sporthalle Sportgymnasium\, Mozartallee 4\, 99096 Erfurt
+SUMMARY:H · 2. Herren – Suchsdorfer SV
+DTSTART;TZID=Europe/Berlin:20261213T184500
+DTEND;TZID=Europe/Berlin:20261213T204500
+DTSTAMP:20260826T083308Z
+UID:match-504316@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 11\nhttps://w
+ ww.handball.net/match/504316
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392858
+URL:https://www.handball.net/match/504316
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – TV Arnsberg H1
-DTSTART;TZID=Europe/Berlin:20270124T180000
-DTEND;TZID=Europe/Berlin:20270124T200000
-DTSTAMP:20260826T074056Z
-UID:match-503355@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 12\nhttps://www.
- handball.net/match/503355
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:H · 2. Herren – 1. Männer HSG 24109
+DTSTART;TZID=Europe/Berlin:20270110T150000
+DTEND;TZID=Europe/Berlin:20270110T170000
+DTSTAMP:20260826T083308Z
+UID:match-504322@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 12\nhttps://w
+ ww.handball.net/match/504322
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503355
+URL:https://www.handball.net/match/504322
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · SG Menden 2 – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20270130T170000
-DTEND;TZID=Europe/Berlin:20270130T190000
-DTSTAMP:20260826T074056Z
-UID:match-503360@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 13\nhttps:/
- /www.handball.net/match/503360
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Kreissporthalle Berufsschule\, Werler Straße\, 58706 Menden
+SUMMARY:H · 1. Herren – MTV Lübeck II
+DTSTART;TZID=Europe/Berlin:20270110T170000
+DTEND;TZID=Europe/Berlin:20270110T190000
+DTSTAMP:20260826T083308Z
+UID:match-449354@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 12\nhttps://www.handball.net/match/449354
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503360
+URL:https://www.handball.net/match/449354
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – BV Borussia 09 Dortmund II
-DTSTART;TZID=Europe/Berlin:20270130T193000
-DTEND;TZID=Europe/Berlin:20270130T213000
-DTSTAMP:20260826T074056Z
-UID:match-392862@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 15\nhttps://www
- .handball.net/match/392862
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:A · HSG Holstein Kiel/Kronshagen III – 1. Damen
+DTSTART;TZID=Europe/Berlin:20270110T184500
+DTEND;TZID=Europe/Berlin:20270110T204500
+DTSTAMP:20260826T083308Z
+UID:match-505967@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 12\nhttps
+ ://www.handball.net/match/505967
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392862
+URL:https://www.handball.net/match/505967
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Bad Wildungen Vipers – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20270214T160000
-DTEND;TZID=Europe/Berlin:20270214T180000
-DTSTAMP:20260826T074056Z
-UID:match-392871@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 16\nhttps:
- //www.handball.net/match/392871
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Enseschule\, Brüder-Grimm-Straße 4\, 34537 Bad Wildu
- ngen
+SUMMARY:H · 1. Damen – TuS Gaarden
+DTSTART;TZID=Europe/Berlin:20270123T171500
+DTEND;TZID=Europe/Berlin:20270123T191500
+DTSTAMP:20260826T083308Z
+UID:match-505974@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 13\nhttps://ww
+ w.handball.net/match/505974
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392871
+URL:https://www.handball.net/match/505974
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – TV Brechten II
-DTSTART;TZID=Europe/Berlin:20270214T180000
-DTEND;TZID=Europe/Berlin:20270214T200000
-DTSTAMP:20260826T074056Z
-UID:match-503364@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 14\nhttps://www.
- handball.net/match/503364
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · TuS Aumühle-Wohltorf – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270124T170000
+DTEND;TZID=Europe/Berlin:20270124T190000
+DTSTAMP:20260826T083308Z
+UID:match-449359@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 13\nhttps://www.handball.net/match/449359
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Heinrich-Willers-Halle\, Ernst-Anton-Straße 27\, 21521 Aumühle
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503364
+URL:https://www.handball.net/match/449359
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Herdecke/Ende II – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20270221T160000
-DTEND;TZID=Europe/Berlin:20270221T180000
-DTSTAMP:20260826T074056Z
-UID:match-503371@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 15\nhttps:/
- /www.handball.net/match/503371
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH Herdecke-Bleichstein\, Bleichstein\, 58313 Herdecke
+SUMMARY:A · Heikendorfer SV – 2. Herren
+DTSTART;TZID=Europe/Berlin:20270124T170000
+DTEND;TZID=Europe/Berlin:20270124T190000
+DTSTAMP:20260826T083308Z
+UID:match-504327@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 13\nhttp
+ s://www.handball.net/match/504327
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Gemeindesporthalle\, Schulredder 2\, 24226 Heikendorf
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503371
+URL:https://www.handball.net/match/504327
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – TSG 1893 Leihgestern
-DTSTART;TZID=Europe/Berlin:20270221T170000
-DTEND;TZID=Europe/Berlin:20270221T190000
-DTSTAMP:20260826T074056Z
-UID:match-392873@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 17\nhttps://www
- .handball.net/match/392873
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 1. Herren – MTV Dänischenhagen
+DTSTART;TZID=Europe/Berlin:20270130T190000
+DTEND;TZID=Europe/Berlin:20270130T210000
+DTSTAMP:20260826T083308Z
+UID:match-449363@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 14\nhttps://www.handball.net/match/449363
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392873
+URL:https://www.handball.net/match/449363
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TSG 1846 Mainz-Bretzenheim – PSV Recklinghausen Damen
+SUMMARY:H · 1. Damen – MTV Dänischenhagen II
+DTSTART;TZID=Europe/Berlin:20270131T101500
+DTEND;TZID=Europe/Berlin:20270131T121500
+DTSTAMP:20260826T083308Z
+UID:match-505976@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 14\nhttps://ww
+ w.handball.net/match/505976
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505976
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 2. Herren – TSV Plön
+DTSTART;TZID=Europe/Berlin:20270131T120000
+DTEND;TZID=Europe/Berlin:20270131T140000
+DTSTAMP:20260826T083308Z
+UID:match-504333@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 14\nhttps://w
+ ww.handball.net/match/504333
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504333
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · THW Kiel – 1. Damen
+DTSTART;TZID=Europe/Berlin:20270206T180000
+DTEND;TZID=Europe/Berlin:20270206T200000
+DTSTAMP:20260826T083308Z
+UID:match-505984@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 15\nhttps
+ ://www.handball.net/match/505984
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Igs-Friedrichsort\, Steenbarg 10\, 24159 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505984
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · TSV Kronshagen II – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270206T190000
+DTEND;TZID=Europe/Berlin:20270206T210000
+DTSTAMP:20260826T083308Z
+UID:match-449370@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 15\nhttps://www.handball.net/match/449370
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Sporthalle Kronshagen (Mit Tribüne)\, Suchsdorfer Weg 66\, 24119
+  Kronshagen
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449370
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · HSG Wabo 2011 – 2. Herren
+DTSTART;TZID=Europe/Berlin:20270207T173000
+DTEND;TZID=Europe/Berlin:20270207T193000
+DTSTAMP:20260826T083308Z
+UID:match-504336@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 15\nhttp
+ s://www.handball.net/match/504336
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Ballsporthalle Wankendorf\, Auf Dem Bös 2\, 24601 Wankendorf
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504336
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Herren – SC Kieler Förde 1. Männer
+DTSTART;TZID=Europe/Berlin:20270214T163000
+DTEND;TZID=Europe/Berlin:20270214T183000
+DTSTAMP:20260826T083308Z
+UID:match-449377@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 16\nhttps://www.handball.net/match/449377
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449377
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Damen – HSG Mönkeberg-Schönkirchen II
+DTSTART;TZID=Europe/Berlin:20270220T163000
+DTEND;TZID=Europe/Berlin:20270220T183000
+DTSTAMP:20260826T083308Z
+UID:match-505991@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 16\nhttps://ww
+ w.handball.net/match/505991
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505991
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · TSV Schwarzenbek – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270220T183000
+DTEND;TZID=Europe/Berlin:20270220T203000
+DTSTAMP:20260826T083308Z
+UID:match-449384@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 17\nhttps://www.handball.net/match/449384
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Sporthalle Berliner Straße\, Berliner Straße 12\, 21493 Schwarz
+ enbek
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449384
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 2. Herren – TSV Altenholz III
+DTSTART;TZID=Europe/Berlin:20270220T183000
+DTEND;TZID=Europe/Berlin:20270220T203000
+DTSTAMP:20260826T083308Z
+UID:match-504343@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 16\nhttps://w
+ ww.handball.net/match/504343
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504343
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Damen – 1. Frauen HSG 24109
+DTSTART;TZID=Europe/Berlin:20270227T163000
+DTEND;TZID=Europe/Berlin:20270227T183000
+DTSTAMP:20260826T083308Z
+UID:match-505997@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 17\nhttps://ww
+ w.handball.net/match/505997
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/505997
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · MTV Dänischenhagen II – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270227T193000
 DTEND;TZID=Europe/Berlin:20270227T213000
-DTSTAMP:20260826T074056Z
-UID:match-392884@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 18\nhttps:
- //www.handball.net/match/392884
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Igs 1 Mainz-Bretzenheim\, Hans-Böckler-Straße 2\, 55128 Mainz
+DTSTAMP:20260826T083308Z
+UID:match-504350@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 17\nhttp
+ s://www.handball.net/match/504350
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392884
+URL:https://www.handball.net/match/504350
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – TuS Borussia Höchsten
-DTSTART;TZID=Europe/Berlin:20270228T180000
-DTEND;TZID=Europe/Berlin:20270228T200000
-DTSTAMP:20260826T074056Z
-UID:match-503378@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 16\nhttps://www.
- handball.net/match/503378
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · HSG Mönkeberg-Schönkirchen II – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270228T150000
+DTEND;TZID=Europe/Berlin:20270228T170000
+DTSTAMP:20260826T083308Z
+UID:match-449390@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 18\nhttps://www.handball.net/match/449390
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503378
+URL:https://www.handball.net/match/449390
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TV Wickede H1 – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20270306T180000
-DTEND;TZID=Europe/Berlin:20270306T200000
-DTSTAMP:20260826T074056Z
-UID:match-503385@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 17\nhttps:/
- /www.handball.net/match/503385
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Gerken-Sporthalle\, Hövelstraße\, 58739 Wickede-Ruhr
+SUMMARY:H · 1. Herren – TSV Schönberg
+DTSTART;TZID=Europe/Berlin:20270307T140000
+DTEND;TZID=Europe/Berlin:20270307T160000
+DTSTAMP:20260826T083308Z
+UID:match-449396@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 19\nhttps://www.handball.net/match/449396
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503385
+URL:https://www.handball.net/match/449396
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · TV Neheim H1 – HVE 2. Herren
+SUMMARY:A · SV Henstedt-Ulzburg – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270313T180000
+DTEND;TZID=Europe/Berlin:20270313T200000
+DTSTAMP:20260826T083308Z
+UID:match-449402@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 20\nhttps://www.handball.net/match/449402
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Alstergymnasium 2\, Maurepass Straße 67\, 24558 Henstedt-Ulzburg
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/449402
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 2. Herren – Gettorfer TV
 DTSTART;TZID=Europe/Berlin:20270313T183000
 DTEND;TZID=Europe/Berlin:20270313T203000
-DTSTAMP:20260826T074056Z
-UID:match-503391@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 18\nhttps:/
- /www.handball.net/match/503391
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH Berliner Platz\, Berliner Platz\, 59755 Arnsberg(Neh.-Hü.)
+DTSTAMP:20260826T083308Z
+UID:match-504357@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 18\nhttps://w
+ ww.handball.net/match/504357
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503391
+URL:https://www.handball.net/match/504357
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · 1. FSV Mainz 05 II – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20270314T150000
-DTEND;TZID=Europe/Berlin:20270314T170000
-DTSTAMP:20260826T074056Z
-UID:match-392885@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 19\nhttps:
- //www.handball.net/match/392885
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Gymnasium Mz-Oberstadt\, Hechtsheimer Straße 29\, 55131 Mainz
+SUMMARY:A · TuS Felde – 1. Damen
+DTSTART;TZID=Europe/Berlin:20270313T183000
+DTEND;TZID=Europe/Berlin:20270313T203000
+DTSTAMP:20260826T083308Z
+UID:match-506002@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nAuswärtsspiel · Spieltag 18\nhttps
+ ://www.handball.net/match/506002
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Sporthalle Felde\, Am Sportplatz\, Hasselrade\, Felde\, Amt Achte
+ rwehr\, Kreis Rendsburg-Eckernförde\, Schleswig-Holstein\, 24242\, Deutsc
+ hland
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392885
+URL:https://www.handball.net/match/506002
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – TuS Königsdorf
-DTSTART;TZID=Europe/Berlin:20270320T193000
-DTEND;TZID=Europe/Berlin:20270320T213000
-DTSTAMP:20260826T074056Z
-UID:match-392895@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 20\nhttps://www
- .handball.net/match/392895
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:A · HSG Mönkeberg-Schönkirchen III – 2. Herren
+DTSTART;TZID=Europe/Berlin:20270320T173000
+DTEND;TZID=Europe/Berlin:20270320T193000
+DTSTAMP:20260826T083308Z
+UID:match-504364@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 19\nhttp
+ s://www.handball.net/match/504364
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392895
+URL:https://www.handball.net/match/504364
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – SC Huckarde Rahm
-DTSTART;TZID=Europe/Berlin:20270403T180000
-DTEND;TZID=Europe/Berlin:20270403T200000
-DTSTAMP:20260826T074056Z
-UID:match-503397@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 19\nhttps://www.
- handball.net/match/503397
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:H · 1. Damen – SC Kieler Förde 1. Frauen
+DTSTART;TZID=Europe/Berlin:20270321T171500
+DTEND;TZID=Europe/Berlin:20270321T191500
+DTSTAMP:20260826T083308Z
+UID:match-506006@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 19\nhttps://ww
+ w.handball.net/match/506006
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503397
+URL:https://www.handball.net/match/506006
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Bensheim/Auerbach II – PSV Recklinghausen Damen
-DTSTART;TZID=Europe/Berlin:20270404T160000
-DTEND;TZID=Europe/Berlin:20270404T180000
-DTSTAMP:20260826T074056Z
-UID:match-392898@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nAuswärtsspiel · Spieltag 21\nhttps:
- //www.handball.net/match/392898
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Geschwister-Scholl-Schule\, Eifelstraße 39\, 64625 Bensheim
+SUMMARY:A · Kieler Turnverein – 2. Herren
+DTSTART;TZID=Europe/Berlin:20270418T150000
+DTEND;TZID=Europe/Berlin:20270418T170000
+DTSTAMP:20260826T083308Z
+UID:match-504370@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 20\nhttp
+ s://www.handball.net/match/504370
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392898
+URL:https://www.handball.net/match/504370
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · PSV Recklinghausen Damen – 1.Fc Köln
-DTSTART;TZID=Europe/Berlin:20270417T193000
-DTEND;TZID=Europe/Berlin:20270417T213000
-DTSTAMP:20260826T074056Z
-UID:match-392906@handball.net
-DESCRIPTION:3. Liga Frauen · Mitte\nHeimspiel · Spieltag 22\nhttps://www
- .handball.net/match/392906
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Reckl.-Nord\, Halterner Straße 125\, 45657 Recklinghausen
+SUMMARY:H · 1. Herren – Atsv Stockelsdorf
+DTSTART;TZID=Europe/Berlin:20270418T170000
+DTEND;TZID=Europe/Berlin:20270418T190000
+DTSTAMP:20260826T083308Z
+UID:match-449408@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nHeimspiel · Spieltag 21\nhttps://www.handball.net/match/449408
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/392906
+URL:https://www.handball.net/match/449408
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · HSG Wetter Grundschöttel – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20270417T193000
-DTEND;TZID=Europe/Berlin:20270417T213000
-DTSTAMP:20260826T074056Z
-UID:match-503403@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 20\nhttps:/
- /www.handball.net/match/503403
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH Wetter-Oberwengern\, H.-V.-Fallersleben-Straße 28\, 58300 We
- tter
+SUMMARY:H · 1. Damen – Preetzer TSV II
+DTSTART;TZID=Europe/Berlin:20270424T163000
+DTEND;TZID=Europe/Berlin:20270424T183000
+DTSTAMP:20260826T083308Z
+UID:match-506018@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 21\nhttps://ww
+ w.handball.net/match/506018
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503403
+URL:https://www.handball.net/match/506018
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:H · HVE 2. Herren – DJK SG Boesperde II
-DTSTART;TZID=Europe/Berlin:20270425T180000
-DTEND;TZID=Europe/Berlin:20270425T200000
-DTSTAMP:20260826T074056Z
-UID:match-503409@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nHeimspiel · Spieltag 21\nhttps://www.
- handball.net/match/503409
-LAST-MODIFIED:20260826T074056Z
-LOCATION:Sporthalle Gänsewinkel\, Grünstraße. 70\, 58239 Schwerte
+SUMMARY:A · VFL Lübeck-SCHWARTAU II – 1. Herren
+DTSTART;TZID=Europe/Berlin:20270424T170000
+DTEND;TZID=Europe/Berlin:20270424T190000
+DTSTAMP:20260826T083308Z
+UID:match-449414@handball.net
+DESCRIPTION:Verbandsliga Schleswig-Holstein Männer · Meisterrunde - Süd
+ \nAuswärtsspiel · Spieltag 22\nhttps://www.handball.net/match/449414
+LAST-MODIFIED:20260826T083308Z
+LOCATION:SZ Jahnstraße Sporthalle 1\, Ludwig-Jahn-Straße\, 23611 Bad Sch
+ wartau
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503409
+URL:https://www.handball.net/match/449414
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:A · ASC Dortmund II – HVE 2. Herren
-DTSTART;TZID=Europe/Berlin:20270502T160000
-DTEND;TZID=Europe/Berlin:20270502T180000
-DTSTAMP:20260826T074056Z
-UID:match-503415@handball.net
-DESCRIPTION:KÜS Bezirksliga Mitte\nAuswärtsspiel · Spieltag 22\nhttps:/
- /www.handball.net/match/503415
-LAST-MODIFIED:20260826T074056Z
-LOCATION:SPH. Aplerbeck I\, Schweizer Allee 25\, 44287 Dortmund
+SUMMARY:H · 2. Herren – FT Vorwärts Kiel
+DTSTART;TZID=Europe/Berlin:20270424T183000
+DTEND;TZID=Europe/Berlin:20270424T203000
+DTSTAMP:20260826T083308Z
+UID:match-504376@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 21\nhttps://w
+ ww.handball.net/match/504376
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
-URL:https://www.handball.net/match/503415
+URL:https://www.handball.net/match/504376
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A · Suchsdorfer SV – 2. Herren
+DTSTART;TZID=Europe/Berlin:20270501T190000
+DTEND;TZID=Europe/Berlin:20270501T210000
+DTSTAMP:20260826T083308Z
+UID:match-504382@handball.net
+DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 22\nhttp
+ s://www.handball.net/match/504382
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Suchsdorf\, Nienbrügger Weg 48\, 24107 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/504382
+X-HANDBALLNET-STATUS:Angesetzt
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:H · 1. Damen – Suchsdorfer SV II
+DTSTART;TZID=Europe/Berlin:20270502T140000
+DTEND;TZID=Europe/Berlin:20270502T160000
+DTSTAMP:20260826T083308Z
+UID:match-506026@handball.net
+DESCRIPTION:Kreisoberliga Frauen Ost\nHeimspiel · Spieltag 22\nhttps://ww
+ w.handball.net/match/506026
+LAST-MODIFIED:20260826T083308Z
+LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
+STATUS:CONFIRMED
+URL:https://www.handball.net/match/506026
 X-HANDBALLNET-STATUS:Angesetzt
 END:VEVENT
 END:VCALENDAR

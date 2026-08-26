@@ -25,11 +25,11 @@ BEGIN:VEVENT
 SUMMARY:A · 1. Männer HSG 24109 – 2. Herren
 DTSTART;TZID=Europe/Berlin:20260830T170000
 DTEND;TZID=Europe/Berlin:20260830T190000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504256@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 1\nSchie
  dsrichter: Sascha Steltenkamp\nhttps://www.handball.net/match/504256
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504256
@@ -39,11 +39,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – Heikendorfer SV
 DTSTART;TZID=Europe/Berlin:20260906T160000
 DTEND;TZID=Europe/Berlin:20260906T180000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504261@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 2\nSchiedsric
  hter: Dorte Wenn\, Ulrike Berg\nhttps://www.handball.net/match/504261
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:St-Andrews-Halle/Gelehrtenschule\, Breiter Weg\, 24105 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504261
@@ -53,11 +53,11 @@ BEGIN:VEVENT
 SUMMARY:A · TSV Plön – 2. Herren
 DTSTART;TZID=Europe/Berlin:20260913T160000
 DTEND;TZID=Europe/Berlin:20260913T180000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504267@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 3\nhttps
  ://www.handball.net/match/504267
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Schiffsthalhalle\, Am Schiffsthal\, 24306 Plön
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504267
@@ -67,11 +67,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – HSG Wabo 2011
 DTSTART;TZID=Europe/Berlin:20260927T150000
 DTEND;TZID=Europe/Berlin:20260927T170000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504270@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 4\nhttps://ww
  w.handball.net/match/504270
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504270
@@ -81,11 +81,11 @@ BEGIN:VEVENT
 SUMMARY:A · TSV Altenholz III – 2. Herren
 DTSTART;TZID=Europe/Berlin:20261003T140000
 DTEND;TZID=Europe/Berlin:20261003T160000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504277@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 5\nhttps
  ://www.handball.net/match/504277
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Kreishalle Altenholz\, Posener Straße\, 24161 Altenholz-Stift
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504277
@@ -95,11 +95,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – MTV Dänischenhagen II
 DTSTART;TZID=Europe/Berlin:20261101T180000
 DTEND;TZID=Europe/Berlin:20261101T200000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504284@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 6\nhttps://ww
  w.handball.net/match/504284
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504284
@@ -109,11 +109,11 @@ BEGIN:VEVENT
 SUMMARY:A · Gettorfer TV – 2. Herren
 DTSTART;TZID=Europe/Berlin:20261108T181500
 DTEND;TZID=Europe/Berlin:20261108T201500
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504291@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 7\nhttps
  ://www.handball.net/match/504291
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Parkschule Gettorf\, Kirchhofsallee 28-30\, 24214 Gettorf
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504291
@@ -123,11 +123,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – HSG Mönkeberg-Schönkirchen III
 DTSTART;TZID=Europe/Berlin:20261115T180000
 DTEND;TZID=Europe/Berlin:20261115T200000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504298@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 8\nhttps://ww
  w.handball.net/match/504298
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504298
@@ -137,11 +137,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – Kieler Turnverein
 DTSTART;TZID=Europe/Berlin:20261129T150000
 DTEND;TZID=Europe/Berlin:20261129T170000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504304@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 9\nhttps://ww
  w.handball.net/match/504304
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504304
@@ -151,11 +151,11 @@ BEGIN:VEVENT
 SUMMARY:A · FT Vorwärts Kiel – 2. Herren
 DTSTART;TZID=Europe/Berlin:20261205T193000
 DTEND;TZID=Europe/Berlin:20261205T213000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504310@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 10\nhttp
  s://www.handball.net/match/504310
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Igs-Friedrichsort\, Steenbarg 10\, 24159 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504310
@@ -165,11 +165,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – Suchsdorfer SV
 DTSTART;TZID=Europe/Berlin:20261213T184500
 DTEND;TZID=Europe/Berlin:20261213T204500
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504316@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 11\nhttps://w
  ww.handball.net/match/504316
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504316
@@ -179,11 +179,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – 1. Männer HSG 24109
 DTSTART;TZID=Europe/Berlin:20270110T150000
 DTEND;TZID=Europe/Berlin:20270110T170000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504322@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 12\nhttps://w
  ww.handball.net/match/504322
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504322
@@ -193,11 +193,11 @@ BEGIN:VEVENT
 SUMMARY:A · Heikendorfer SV – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270124T170000
 DTEND;TZID=Europe/Berlin:20270124T190000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504327@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 13\nhttp
  s://www.handball.net/match/504327
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Gemeindesporthalle\, Schulredder 2\, 24226 Heikendorf
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504327
@@ -207,11 +207,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – TSV Plön
 DTSTART;TZID=Europe/Berlin:20270131T120000
 DTEND;TZID=Europe/Berlin:20270131T140000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504333@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 14\nhttps://w
  ww.handball.net/match/504333
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504333
@@ -221,11 +221,11 @@ BEGIN:VEVENT
 SUMMARY:A · HSG Wabo 2011 – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270207T173000
 DTEND;TZID=Europe/Berlin:20270207T193000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504336@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 15\nhttp
  s://www.handball.net/match/504336
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Ballsporthalle Wankendorf\, Auf Dem Bös 2\, 24601 Wankendorf
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504336
@@ -235,11 +235,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – TSV Altenholz III
 DTSTART;TZID=Europe/Berlin:20270220T183000
 DTEND;TZID=Europe/Berlin:20270220T203000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504343@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 16\nhttps://w
  ww.handball.net/match/504343
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504343
@@ -249,11 +249,11 @@ BEGIN:VEVENT
 SUMMARY:A · MTV Dänischenhagen II – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270227T193000
 DTEND;TZID=Europe/Berlin:20270227T213000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504350@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 17\nhttp
  s://www.handball.net/match/504350
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Hans-Bernd-Halle\, Erlenweg 15\, 24229 Dänischenhagen
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504350
@@ -263,11 +263,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – Gettorfer TV
 DTSTART;TZID=Europe/Berlin:20270313T183000
 DTEND;TZID=Europe/Berlin:20270313T203000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504357@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 18\nhttps://w
  ww.handball.net/match/504357
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504357
@@ -277,11 +277,11 @@ BEGIN:VEVENT
 SUMMARY:A · HSG Mönkeberg-Schönkirchen III – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270320T173000
 DTEND;TZID=Europe/Berlin:20270320T193000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504364@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 19\nhttp
  s://www.handball.net/match/504364
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Mönkeberg\, Dorfstraße 6\, 24248 Mönkeberg
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504364
@@ -291,11 +291,11 @@ BEGIN:VEVENT
 SUMMARY:A · Kieler Turnverein – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270418T150000
 DTEND;TZID=Europe/Berlin:20270418T170000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504370@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 20\nhttp
  s://www.handball.net/match/504370
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Halle Im BZ Mettenhof 2\, Vaasastraße 43\, 24109 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504370
@@ -305,11 +305,11 @@ BEGIN:VEVENT
 SUMMARY:H · 2. Herren – FT Vorwärts Kiel
 DTSTART;TZID=Europe/Berlin:20270424T183000
 DTEND;TZID=Europe/Berlin:20270424T203000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504376@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nHeimspiel · Spieltag 21\nhttps://w
  ww.handball.net/match/504376
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Tallinnhalle\, Elendsredder 24-26\, 24106 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504376
@@ -319,11 +319,11 @@ BEGIN:VEVENT
 SUMMARY:A · Suchsdorfer SV – 2. Herren
 DTSTART;TZID=Europe/Berlin:20270501T190000
 DTEND;TZID=Europe/Berlin:20270501T210000
-DTSTAMP:20260826T074056Z
+DTSTAMP:20260826T083308Z
 UID:match-504382@handball.net
 DESCRIPTION:Kreisoberliga Männer Ost\nAuswärtsspiel · Spieltag 22\nhttp
  s://www.handball.net/match/504382
-LAST-MODIFIED:20260826T074056Z
+LAST-MODIFIED:20260826T083308Z
 LOCATION:Suchsdorf\, Nienbrügger Weg 48\, 24107 Kiel
 STATUS:CONFIRMED
 URL:https://www.handball.net/match/504382

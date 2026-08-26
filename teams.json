@@ -6,6 +6,20 @@
       "phase_ids": [
         12962
       ]
+    },
+    {
+      "label": "1. Herren",
+      "team_id": 81590,
+      "phase_ids": [
+        14063
+      ]
+    },
+    {
+      "label": "1. Damen",
+      "team_id": 81919,
+      "phase_ids": [
+        12966
+      ]
     }
   ],
   "feeds": [
